@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DCM,Chrome 70.0.3538.77,,2018-11-14 13:00:47,2018-11-14 13:01:35,48.067s,FAILED
+,,,,,,
+Test Cases/DCM/Testcase01_VerifyLoginSuccessfully,Chrome 70.0.3538.77,,2018-11-14 13:00:48,2018-11-14 13:01:35,47.097s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.77,,2018-11-14 13:00:48,2018-11-14 13:00:48,0.135s,PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-14 13:00:48,2018-11-14 13:01:00,11.908s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-14 13:01:00,2018-11-14 13:01:01,1.045s,PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-11-14 13:01:01,2018-11-14 13:01:03,1.155s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-14 13:01:03,2018-11-14 13:01:35,32.194s,FAILED

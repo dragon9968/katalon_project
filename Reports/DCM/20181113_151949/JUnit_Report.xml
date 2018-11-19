@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DCM" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="DCM" tests="1" failures="0" errors="0" time="30" timestamp="2018-11-13 15:19:53" hostname="longnguyen - LONGNGUYEN.vodc.lan" id="Test Suites/DCM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\DCM\\20181113_151949"/>
+         <property name="logFiles" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\DCM\\20181113_151949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="longnguyen - LONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.10.10.62"/>
+         <property name="sessionId" value="deb288c75dae357de804d02c46819399"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DCM/Testcase01_VerifyLoginSuccessfully" classname="Test Cases/DCM/Testcase01_VerifyLoginSuccessfully" status="PASSED">
+         <system-out><![CDATA[2018-11-13 15:19:54 - [TEST_CASE][PASSED] - Test Cases/DCM/Testcase01_VerifyLoginSuccessfully: Test Cases/DCM/Testcase01_VerifyLoginSuccessfully
+
+2018-11-13 15:19:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-13 15:19:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-13 15:19:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-13 15:19:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://w2capl0051510.heb.com:20143/DCM_UI/'
+
+2018-11-13 15:20:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://w2capl0051510.heb.com:20143/DCM_UI/'
+
+2018-11-13 15:20:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 15:20:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 15:20:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-13 15:20:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-13 15:20:09 - [TEST_STEP][PASSED] - setText: Text 'p165114' is set on object 'Object Repository/DCM/Login_Obj/input_Cost and Deals_j_usernam'
+
+2018-11-13 15:20:10 - [MESSAGE][PASSED] - Text 'p165114' is set on object 'Object Repository/DCM/Login_Obj/input_Cost and Deals_j_usernam'
+
+2018-11-13 15:20:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 15:20:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 15:20:11 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/DCM/Login_Obj/input_Cost and Deals_j_passwor'
+
+2018-11-13 15:20:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DCM/Login_Obj/input_Cost and Deals_j_passwor'
+
+2018-11-13 15:20:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 15:20:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 15:20:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DCM/Login_Obj/button_Login' is clicked on
+
+2018-11-13 15:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DCM/Login_Obj/button_Login' is clicked on
+
+2018-11-13 15:20:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 15:20:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 15:20:21 - [TEST_STEP][PASSED] - verifyLinksAccessible: All links are accessible
+
+2018-11-13 15:20:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-13 15:20:23 - [MESSAGE][PASSED] - All links are accessible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 15:19:53 - [TEST_SUITE][PASSED] - DCM: Test Cases/DCM/Testcase01_VerifyLoginSuccessfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

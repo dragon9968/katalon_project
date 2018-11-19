@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Textbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96bfb6f3-4a7b-4672-b49c-6116f44cd254</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/basic-first-form-demo.html'</defaultValue>
+      <description></description>
+      <id>a22df649-fb20-4a16-b4c0-2ad076db8e42</id>
+      <masked>false</masked>
+      <name>textbox_url_demo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Long_Nguyen tested Enter message'</defaultValue>
+      <description></description>
+      <id>8883f453-1dc4-49c4-af34-86acb7228cc9</id>
+      <masked>false</masked>
+      <name>message_input</name>
+   </variable>
+   <variable>
+      <defaultValue>'Select Description from Static_Content Where Type_Testing = &quot;textbox&quot;'</defaultValue>
+      <description></description>
+      <id>517e3d23-a99b-4e63-b43f-6603f2a0478c</id>
+      <masked>false</masked>
+      <name>query_message_from_db</name>
+   </variable>
+</TestCaseEntity>

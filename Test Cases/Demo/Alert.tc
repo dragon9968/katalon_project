@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22ea90a0-0bb8-4d6c-8b37-329d2b6e1414</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'</defaultValue>
+      <description></description>
+      <id>5032ac82-81ed-4532-867f-f52a4ff3fe61</id>
+      <masked>false</masked>
+      <name>alert_demo_url</name>
+   </variable>
+</TestCaseEntity>

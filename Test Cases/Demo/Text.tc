@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a2983fd-ad00-4fc7-920f-b8bd0bf5e740</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/basic-first-form-demo.html'</defaultValue>
+      <description></description>
+      <id>7d11ec32-a004-4866-a3bd-844a4c01c0d7</id>
+      <masked>false</masked>
+      <name>text_demo_url</name>
+   </variable>
+   <variable>
+      <defaultValue>'This would be your first example to start with Selenium.'</defaultValue>
+      <description></description>
+      <id>8b7c9211-38f0-4e5d-8712-e33743e8f396</id>
+      <masked>false</masked>
+      <name>expected_text_show</name>
+   </variable>
+   <variable>
+      <defaultValue>'Select Description from Static_Content Where Type_Testing = &quot;text&quot;'</defaultValue>
+      <description></description>
+      <id>0f0baf0a-15de-4d95-bb8c-e447b2f151ce</id>
+      <masked>false</masked>
+      <name>query_text_from_db</name>
+   </variable>
+</TestCaseEntity>

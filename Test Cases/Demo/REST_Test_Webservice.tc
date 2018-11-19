@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REST_Test_Webservice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae91e7be-8f35-4175-9da9-88571fc0a81b</testCaseGuid>
+   <variable>
+      <defaultValue>'545646629'</defaultValue>
+      <description></description>
+      <id>d20ada2b-4a35-4902-b408-d12931846504</id>
+      <masked>false</masked>
+      <name>id_expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'string'</defaultValue>
+      <description></description>
+      <id>2bdbea3b-7c1e-43e7-a647-293b5ee7f11a</id>
+      <masked>false</masked>
+      <name>category_name_expected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ab13d744-3271-4377-ac5c-484175c70de7</id>
+      <masked>false</masked>
+      <name>name_expected</name>
+   </variable>
+</TestCaseEntity>
