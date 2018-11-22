@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-22 15:32:41,2018-11-22 15:33:59,1m - 17.665s,PASSED
+,,,,,,
+Test Cases/Demo/DataTable,Chrome 70.0.3538.102,,2018-11-22 15:32:42,2018-11-22 15:33:59,1m - 16.816s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-22 15:32:42,2018-11-22 15:32:42,0.138s,PASSED
+Statement - row_data_table = 1,Chrome 70.0.3538.102,,2018-11-22 15:32:43,2018-11-22 15:32:43,0.005s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-22 15:32:43,2018-11-22 15:32:48,4.798s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-22 15:32:48,2018-11-22 15:32:49,1.557s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-22 15:32:49,2018-11-22 15:32:51,1.359s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:32:51,0.211s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:32:51,0.012s,PASSED
+"Statement - pagination = driver.findElements(org.openqa.selenium.By.xpath("".//*[@id=""example_paginate""]/span/a""))",Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:32:51,0.215s,PASSED
+Statement - size = pagination.size(),Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:32:51,0.002s,PASSED
+"Statement - out.println(""Total Pages of this site is :"" + size)",Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:32:51,0.013s,PASSED
+"Statement - For ([i = 1, i <= size, (i++)])",Chrome 70.0.3538.102,,2018-11-22 15:32:51,2018-11-22 15:33:59,1m - 7.846s,PASSED

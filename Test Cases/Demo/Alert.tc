@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>alert_demo_url</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('Demo/Sample_TC_Alert').getValue(14, 18)</defaultValue>
+      <description></description>
+      <id>6735db9d-1b80-4826-ac59-e61791d07cb8</id>
+      <masked>false</masked>
+      <name>message_text</name>
+   </variable>
 </TestCaseEntity>

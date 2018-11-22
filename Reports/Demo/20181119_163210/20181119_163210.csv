@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-19 16:32:16,2018-11-19 16:33:06,49.944s,FAILED
+,,,,,,
+Test Cases/Demo/Alert,Chrome 70.0.3538.102,,2018-11-19 16:32:17,2018-11-19 16:32:38,21.308s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-19 16:32:20,2018-11-19 16:32:20,0.103s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 16:32:20,2018-11-19 16:32:26,5.418s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to Alert Demo Screen,2018-11-19 16:32:26,2018-11-19 16:32:29,2.997s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 16:32:29,2018-11-19 16:32:30,1.542s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:32:30,2018-11-19 16:32:32,2.037s,PASSED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-19 16:32:32,2018-11-19 16:32:33,0.719s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:32:33,2018-11-19 16:32:34,1.009s,PASSED
+click,Chrome 70.0.3538.102,Click on the second [Click me!] button,2018-11-19 16:32:34,2018-11-19 16:32:34,0.440s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-19 16:32:34,2018-11-19 16:32:35,0.013s,PASSED
+Statement - AlertText = driver.switchTo().alert().getText(),Chrome 70.0.3538.102,Get Alert Text,2018-11-19 16:32:35,2018-11-19 16:32:35,0.097s,PASSED
+verifyEqual,Chrome 70.0.3538.102,Verify Alert Text,2018-11-19 16:32:35,2018-11-19 16:32:35,0.221s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:32:35,2018-11-19 16:32:37,2.003s,PASSED
+acceptAlert,Chrome 70.0.3538.102,Click on [OK] from Alert,2018-11-19 16:32:37,2018-11-19 16:32:37,0.310s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify you clicked on [OK],2018-11-19 16:32:37,2018-11-19 16:32:38,1.205s,FAILED
+,,,,,,
+Test Cases/Demo/Text,Chrome 70.0.3538.102,,2018-11-19 16:32:38,2018-11-19 16:33:06,27.197s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-19 16:32:39,2018-11-19 16:32:39,0.008s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 16:32:39,2018-11-19 16:32:44,4.827s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to [Simple Form Demo] Screen,2018-11-19 16:32:44,2018-11-19 16:32:46,2.389s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 16:32:46,2018-11-19 16:32:48,1.198s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify text [This would be your first example to start with Selenium.] with specified value,2018-11-19 16:32:48,2018-11-19 16:32:48,0.382s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.102,,2018-11-19 16:32:48,2018-11-19 16:32:50,2.006s,PASSED
+callTestCase,Chrome 70.0.3538.102,Connect Database,2018-11-19 16:32:50,2018-11-19 16:33:05,14.604s,PASSED
+"Statement - rs = CustomKeywords.demo.Database.executeQuery(com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/Sample_TC_Text).getValue(14, 6))",Chrome 70.0.3538.102,Query expected text from database,2018-11-19 16:33:05,2018-11-19 16:33:05,0.699s,PASSED
+Statement - description = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-19 16:33:05,2018-11-19 16:33:05,0.001s,PASSED
+Statement - While (rs.next()),Chrome 70.0.3538.102,,2018-11-19 16:33:05,2018-11-19 16:33:05,0.050s,PASSED
+demo.Database.closeDatabaseConnection,Chrome 70.0.3538.102,,2018-11-19 16:33:05,2018-11-19 16:33:05,0.005s,PASSED
+verifyEqual,Chrome 70.0.3538.102,Verify text [This would be your first example to start with Selenium.] with result getting from database,2018-11-19 16:33:05,2018-11-19 16:33:06,0.197s,PASSED

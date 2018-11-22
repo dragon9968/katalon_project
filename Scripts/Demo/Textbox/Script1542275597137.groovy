@@ -56,3 +56,6 @@ CustomKeywords.'demo.Database.closeDatabaseConnection'()
 'Verify message input on page with message getting from database'
 WebUI.verifyTextPresent(description, false)
 
+WebUI.verifyElementText(findTestObject('Demo/Textbox/message_show'), findTestData('Demo/Static_Content_Table').getValue(
+        1, 2))
+

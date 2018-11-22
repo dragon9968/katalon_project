@@ -18,12 +18,12 @@ import java.sql.ResultSet as ResultSet
 WebUI.openBrowser('')
 
 'Go to [Simple Form Demo] Screen'
-WebUI.navigateToUrl(text_demo_url)
+WebUI.navigateToUrl(findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 2))
 
 WebUI.maximizeWindow()
 
 'Verify text [This would be your first example to start with Selenium.] with specified value'
-WebUI.verifyTextPresent(expected_text_show, false)
+WebUI.verifyTextPresent(findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 4), false)
 
 Thread.sleep(2000)
 
@@ -32,7 +32,7 @@ WebUI.callTestCase(findTestCase('Demo/ConnectDatabase'), [:], FailureHandling.ST
 
 //CustomKeywords.'demo.Database.connectDB'('db4free.net', 'mrvautotestdb', '3306', 'mrvautotestdb', 'mrvautotestdb')
 'Query expected text from database'
-ResultSet rs = CustomKeywords.'demo.Database.executeQuery'(query_text_from_db)
+ResultSet rs = CustomKeywords.'demo.Database.executeQuery'(findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 6))
 
 String description
 
@@ -45,9 +45,7 @@ while (rs.next()) {
 CustomKeywords.'demo.Database.closeDatabaseConnection'()
 
 'Verify text [This would be your first example to start with Selenium.] with result getting from database'
-WebUI.verifyTextPresent(description, false)
+WebUI.verifyEqual(description, findTestData('Demo/Sample_TC_Text_xlsx').getValue(15, 6))
 
-def response = WS.sendRequest(findTestObject('Demo/Webservices/REST_getUser', [('status') : 'available']))
-
-WS.verifyResponseStatusCode(response, 200)
+WebUI.verifyTextPresent(findTestData('Demo/Static_Content_Table').getValue(1, 1), false)
 

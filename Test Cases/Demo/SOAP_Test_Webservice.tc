@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>386198f4-59aa-4ed2-b365-48ef34064d03</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Demo/Sample_TC_Text').getValue(14, 8)</defaultValue>
+      <description></description>
+      <id>c50a98cb-1045-4c92-a3a3-b728fba1150d</id>
+      <masked>false</masked>
+      <name>response</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-22 13:30:27,2018-11-22 13:31:02,34.986s,PASSED
+,,,,,,
+Test Cases/Demo/DataTable,Chrome 70.0.3538.102,,2018-11-22 13:30:29,2018-11-22 13:31:02,33.363s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-22 13:30:29,2018-11-22 13:30:29,0.052s,PASSED
+Statement - a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-22 13:30:29,2018-11-22 13:30:29,0.001s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-22 13:30:29,2018-11-22 13:30:37,8.074s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-22 13:30:37,2018-11-22 13:30:39,1.462s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-22 13:30:39,2018-11-22 13:30:40,1.229s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:30:40,0.212s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:30:40,0.014s,PASSED
+"Statement - pagination = driver.findElements(org.openqa.selenium.By.xpath("".//*[@id=""example_paginate""]/span/a""))",Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:30:40,0.080s,PASSED
+Statement - size = pagination.size(),Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:30:40,0.002s,PASSED
+Statement - out.println(pagination.size()),Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:30:40,0.013s,PASSED
+"Statement - For ([i = 1, i <= size, (i++)])",Chrome 70.0.3538.102,,2018-11-22 13:30:40,2018-11-22 13:31:02,21.643s,PASSED

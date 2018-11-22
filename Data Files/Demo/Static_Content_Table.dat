@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Static_Content_Table</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>662b64b6-cf5a-4fae-aa21-48b9fe6f645d</dataFileGUID>
+   <dataSourceUrl>jdbc:sqlserver://localhost:1433;databaseName=Long_Database</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>TG9uZzEyMzRA</password>
+   <query>SELECT * from Static_Content</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sa</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

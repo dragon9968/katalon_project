@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_Table</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b08cfe9d-7d44-4d53-8c12-79bce93bff0e</dataFileGUID>
+   <dataSourceUrl>jdbc:sqlserver://localhost:1433;databaseName=Long_Database</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>TG9uZzEyMzRA</password>
+   <query>SELECT Name,Position,Office,Age,convert(varchar, StartDate, 111)as StartDate,'$' + replace(CONVERT(VARCHAR(100),CAST(Salary AS MONEY),1), '.00','') from Data_Table</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>sa</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

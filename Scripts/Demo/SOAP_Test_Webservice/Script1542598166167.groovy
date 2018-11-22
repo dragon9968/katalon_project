@@ -15,9 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 def response = WS.sendRequest(findTestObject('Demo/Webservices/SOAP_getBankinfo'))
 
-WS.verifyElementText(response, 'getBankResponse.details.bic', 'COLSDE33XXX')
-WS.verifyElementText(response, 'getBankResponse.details.bezeichnung', 'Sparkasse KölnBonn')
-WS.verifyElementText(response, 'getBankResponse.details.ort', 'Köln')
-WS.verifyElementText(response, 'getBankResponse.details.plz', '50667')
+WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 9), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 9))
 
+WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 10), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 10))
+
+WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 11), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 11))
+
+WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 12), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 12))
 

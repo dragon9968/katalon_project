@@ -14,13 +14,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 def response = WS.sendRequest(findTestObject('Demo/Webservices/getWarehouseProductInventoryByItemID'))
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].itemKeyTypeCode[1]', 'ITMCD')
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].whseLocTypeCcde[1]', 'W')
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].whseLocNbr[1]', '407')
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].onHandQty[1]', '143')
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].billQty[1]', '143')
-WS.verifyElementPropertyValue(response, 'whseProductInventory.whseOnHandQty[0].offsiteQty[1]', '0.0')
 
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 15), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 15))
 
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 16), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 16))
 
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 17), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 17))
+
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 18), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 18))
+
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 19), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 19))
+
+WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 20), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
+        15, 20))
 

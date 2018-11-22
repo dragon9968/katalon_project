@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="59" tests="2" failures="0" errors="0">
+   <testsuite name="Demo" tests="2" failures="0" errors="0" time="59" timestamp="2018-11-19 16:19:58" hostname="longnguyen - LONGNGUYEN.vodc.lan" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181119_161952"/>
+         <property name="logFiles" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181119_161952\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="longnguyen - LONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.10.62"/>
+         <property name="sessionId" value="72f5e03622a650b0287b66bc0c48c3ae"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/Alert" classname="Test Cases/Demo/Alert" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:19:58 - [TEST_CASE][PASSED] - Test Cases/Demo/Alert: Test Cases/Demo/Alert
+
+2018-11-19 16:20:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-19 16:20:01 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-19 16:20:01 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-19 16:20:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:20:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:20:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html' successfully
+
+2018-11-19 16:20:11 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html' successfully
+
+2018-11-19 16:20:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 16:20:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 16:20:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 16:20:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 16:20:15 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Demo/Alert/button_Click me' successfully
+
+2018-11-19 16:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 16:20:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Demo/Alert/button_Click me' successfully
+
+2018-11-19 16:20:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-19 16:20:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-19 16:20:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Alert/button_Click me' is clicked on
+
+2018-11-19 16:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Alert/button_Click me' is clicked on
+
+2018-11-19 16:20:16 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-19 16:20:16 - [TEST_STEP][PASSED] - Statement - AlertText = driver.switchTo().alert().getText(): null
+
+2018-11-19 16:20:16 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Press a button!' and expected object 'Press a button!' are equal
+
+2018-11-19 16:20:17 - [MESSAGE][PASSED] - Actual object 'Press a button!' and expected object 'Press a button!' are equal
+
+2018-11-19 16:20:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 16:20:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 16:20:20 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-19 16:20:20 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-19 16:20:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'You pressed OK!' is present on page 
+
+2018-11-19 16:20:20 - [MESSAGE][PASSED] - Text 'You pressed OK!' is present on page 
+
+2018-11-19 16:20:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-19 16:20:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-19 16:20:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Alert/button_Click me' is clicked on
+
+2018-11-19 16:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Alert/button_Click me' is clicked on
+
+2018-11-19 16:20:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 16:20:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 16:20:24 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2018-11-19 16:20:24 - [MESSAGE][PASSED] - Alert dismissed
+
+2018-11-19 16:20:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'You pressed Cancel!' is present on page 
+
+2018-11-19 16:20:24 - [MESSAGE][PASSED] - Text 'You pressed Cancel!' is present on page 
+
+2018-11-19 16:20:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Demo/Alert/button_Click for Prompt Box' successfully
+
+2018-11-19 16:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-19 16:20:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Demo/Alert/button_Click for Prompt Box' successfully
+
+2018-11-19 16:20:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 16:20:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 16:20:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Alert/button_Click for Prompt Box' is clicked on
+
+2018-11-19 16:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Alert/button_Click for Prompt Box' is clicked on
+
+2018-11-19 16:20:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-19 16:20:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-19 16:20:28 - [TEST_STEP][PASSED] - Statement - driver.switchTo().alert().sendKeys(message_text): null
+
+2018-11-19 16:20:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-19 16:20:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-19 16:20:30 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-19 16:20:30 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-19 16:20:30 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'You have entered 'LongNguyen' !' is present on page 
+
+2018-11-19 16:20:30 - [MESSAGE][PASSED] - Text 'You have entered 'LongNguyen' !' is present on page 
+
+2018-11-19 16:20:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-19 16:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-19 16:20:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-19 16:20:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo/Text" classname="Test Cases/Demo/Text" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:20:32 - [TEST_CASE][PASSED] - Test Cases/Demo/Text: Test Cases/Demo/Text
+
+2018-11-19 16:20:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-19 16:20:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-19 16:20:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-19 16:20:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:20:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:20:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.seleniumeasy.com/test/basic-first-form-demo.html' successfully
+
+2018-11-19 16:20:39 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/test/basic-first-form-demo.html' successfully
+
+2018-11-19 16:20:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 16:20:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 16:20:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'This would be your first example to start with Selenium.' is present on page 
+
+2018-11-19 16:20:41 - [MESSAGE][PASSED] - Text 'This would be your first example to start with Selenium.' is present on page 
+
+2018-11-19 16:20:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-19 16:20:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Demo/ConnectDatabase' successfully
+
+2018-11-19 16:20:44 - [TEST_CASE][PASSED] - Test Cases/Demo/ConnectDatabase: Test Cases/Demo/ConnectDatabase
+
+2018-11-19 16:20:44 - [TEST_STEP][PASSED] - demo.Database.connectDB: demo.Database.connectDB is PASSED
+
+2018-11-19 16:20:56 - [MESSAGE][PASSED] - demo.Database.connectDB is PASSED
+
+2018-11-19 16:20:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Demo/ConnectDatabase' successfully
+
+2018-11-19 16:20:56 - [TEST_STEP][PASSED] - Statement - rs = CustomKeywords.demo.Database.executeQuery(com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/Sample_TC_Text).getValue(14, 6)): demo.Database.executeQuery is PASSED
+
+2018-11-19 16:20:56 - [MESSAGE][PASSED] - demo.Database.executeQuery is PASSED
+
+2018-11-19 16:20:56 - [TEST_STEP][PASSED] - Statement - description = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-19 16:20:56 - [TEST_STEP][PASSED] - Statement - While (rs.next()): null
+
+2018-11-19 16:20:57 - [TEST_STEP][PASSED] - Statement - description = rs.getString(1): null
+
+2018-11-19 16:20:57 - [TEST_STEP][PASSED] - Statement - out.println(description): null
+
+2018-11-19 16:20:57 - [TEST_STEP][PASSED] - demo.Database.closeDatabaseConnection: demo.Database.closeDatabaseConnection is PASSED
+
+2018-11-19 16:20:57 - [MESSAGE][PASSED] - demo.Database.closeDatabaseConnection is PASSED
+
+2018-11-19 16:20:57 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'This would be your first example to start with Selenium.' and expected object 'This would be your first example to start with Selenium.' are equal
+
+2018-11-19 16:20:57 - [MESSAGE][PASSED] - Actual object 'This would be your first example to start with Selenium.' and expected object 'This would be your first example to start with Selenium.' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 16:19:58 - [TEST_SUITE][PASSED] - Demo: Test Cases/Demo/Text]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
