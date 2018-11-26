@@ -4,7 +4,7 @@
    <name>Demo</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T15:32:37</lastRun>
+   <lastRun>2018-11-26T10:19:54</lastRun>
    <mailRecipient>longnguyen@magrabbit.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Demo/DataTable_Pagination</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d0cff4a0-3d5b-4f92-ab5b-f351336d4e85</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo/Excel_with_Database</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
