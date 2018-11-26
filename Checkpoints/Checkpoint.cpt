@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Demo/Static_Content_Table</source-url>
+   </source-info>
+   <taken-date>2018-11-26T13:36:27.618</taken-date>
+   <column-names>
+      <column-name>Description</column-name>
+      <column-name>Type_Testing</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "This would be your first example to start with Selenium.",
+      "checked": false
+    },
+    {
+      "value": "text",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Long_Nguyen tested Enter message",
+      "checked": false
+    },
+    {
+      "value": "textbox",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

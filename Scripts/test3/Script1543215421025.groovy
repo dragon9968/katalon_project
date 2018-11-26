@@ -14,6 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.acceptAlert()
-
 WebUI.deselectOptionByIndex(findTestObject(null), null)
+WebUI.click(findTestObject(null))
+WebUI.acceptAlert()
+WebUI.concatenate([])
 
