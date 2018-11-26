@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SOAP_Test_Webservice</name>
+   <name>SOAP_Test_getBankinfo</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>386198f4-59aa-4ed2-b365-48ef34064d03</testCaseGuid>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>REST_Test_Webservice2</name>
+   <name>REST_Test_getWarehouseProInvByItemID</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>612724f2-4eb1-468a-b484-7b0c6139473d</testCaseGuid>

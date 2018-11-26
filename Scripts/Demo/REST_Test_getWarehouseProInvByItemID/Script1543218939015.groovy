@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+try {
+	
 def response = WS.sendRequest(findTestObject('Demo/Webservices/getWarehouseProductInventoryByItemID'))
 
 WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 15), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
@@ -32,4 +34,8 @@ WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx')
 
 WS.verifyElementPropertyValue(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 20), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
         15, 20))
+}
+catch (Exception e) {
+	throw e
+}
 
