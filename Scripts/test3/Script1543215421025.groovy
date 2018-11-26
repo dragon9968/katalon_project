@@ -17,3 +17,7 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject(null))
 
+WebUI.acceptAlert()
+
+WebUI.concatenate([])
+
