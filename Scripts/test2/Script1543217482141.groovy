@@ -13,14 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.acceptAlert()
-
-
-WebUI.delay(0)
-
-WebUI.deleteAllCookies()
-
-WebUI.authenticate('', '', '', 0)
-
-WebUI.click(findTestObject(null))
-
