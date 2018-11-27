@@ -17,3 +17,5 @@ WebUI.acceptAlert()
 
 WebUI.authenticate('', '', '', 0)
 
+WebUI.click(findTestObject(null))
+
