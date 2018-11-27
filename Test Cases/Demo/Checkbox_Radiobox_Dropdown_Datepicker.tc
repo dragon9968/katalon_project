@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>759a0c21-16f9-4551-b1a9-1f5f1acc8d97</testCaseGuid>
+   <variable>
+      <defaultValue>'Seoul CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>cecf7c96-9b08-4295-8bf8-3e98025d20f6</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'28/11/2018'</defaultValue>
+      <description></description>
+      <id>14e14e6c-999b-41a1-8c9d-d63888e3bb4b</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Long test'</defaultValue>
+      <description></description>
+      <id>ce5200c0-6d5d-49e7-8bfe-6d005ba47e30</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'value'</defaultValue>
+      <description></description>
+      <id>34a539bc-2fc7-4e32-9a32-b7cde9c6da4f</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
 </TestCaseEntity>

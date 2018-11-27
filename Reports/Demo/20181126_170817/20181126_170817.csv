@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-26 17:08:22,2018-11-26 17:09:01,39.551s,PASSED
+,,,,,,
+Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker,Chrome 70.0.3538.102,,2018-11-26 17:08:23,2018-11-26 17:09:00,36.798s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 17:08:23,2018-11-26 17:08:23,0.109s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-26 17:08:24,2018-11-26 17:08:48,23.958s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-26 17:08:48,2018-11-26 17:08:48,0.745s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:48,2018-11-26 17:08:49,1.007s,PASSED
+check,Chrome 70.0.3538.102,,2018-11-26 17:08:49,2018-11-26 17:08:50,0.260s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:50,2018-11-26 17:08:51,1.004s,PASSED
+verifyElementChecked,Chrome 70.0.3538.102,,2018-11-26 17:08:51,2018-11-26 17:08:51,0.113s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:51,2018-11-26 17:08:52,1.004s,PASSED
+check,Chrome 70.0.3538.102,,2018-11-26 17:08:52,2018-11-26 17:08:52,0.174s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:52,2018-11-26 17:08:53,1.004s,PASSED
+verifyElementChecked,Chrome 70.0.3538.102,,2018-11-26 17:08:53,2018-11-26 17:08:53,0.052s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:53,2018-11-26 17:08:54,1.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-26 17:08:54,2018-11-26 17:08:55,0.736s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:55,2018-11-26 17:08:56,1.001s,PASSED
+"Statement - datepicker_value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28), ""value"", CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-26 17:08:56,2018-11-26 17:08:56,0.311s,PASSED
+Statement - println(datepicker_value),Chrome 70.0.3538.102,,2018-11-26 17:08:56,2018-11-26 17:08:56,0.004s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 17:08:56,2018-11-26 17:08:57,1.003s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-26 17:08:57,2018-11-26 17:08:58,0.444s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 17:08:58,2018-11-26 17:09:00,2.189s,PASSED
+,,,,,,
+Test Cases/Demo/GotoHomepage,Chrome 70.0.3538.102,,2018-11-26 17:09:00,2018-11-26 17:09:01,1.398s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 17:09:00,2018-11-26 17:09:00,0.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 17:09:00,2018-11-26 17:09:01,0.816s,PASSED

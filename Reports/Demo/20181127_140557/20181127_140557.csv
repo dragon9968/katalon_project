@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-27 14:06:01,2018-11-27 14:07:30,1m - 28.602s,PASSED
+,,,,,,
+Test Cases/Demo/Alert,Chrome 70.0.3538.102,,2018-11-27 14:06:02,2018-11-27 14:06:32,29.957s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 14:06:02,2018-11-27 14:06:03,0.269s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 14:06:03,2018-11-27 14:06:08,4.987s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to Alert Demo Screen,2018-11-27 14:06:08,2018-11-27 14:06:12,3.742s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-27 14:06:12,2018-11-27 14:06:13,1.206s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:13,2018-11-27 14:06:15,2.034s,PASSED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-27 14:06:15,2018-11-27 14:06:15,0.444s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:15,2018-11-27 14:06:16,1.007s,PASSED
+click,Chrome 70.0.3538.102,Click on the second [Click me!] button,2018-11-27 14:06:16,2018-11-27 14:06:17,0.139s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-27 14:06:17,2018-11-27 14:06:17,0.011s,PASSED
+Statement - AlertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(),Chrome 70.0.3538.102,Get Alert Text,2018-11-27 14:06:17,2018-11-27 14:06:17,0.040s,PASSED
+verifyEqual,Chrome 70.0.3538.102,Verify Alert Text,2018-11-27 14:06:17,2018-11-27 14:06:17,0.364s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:17,2018-11-27 14:06:19,2.002s,PASSED
+acceptAlert,Chrome 70.0.3538.102,Click on [OK] from Alert,2018-11-27 14:06:19,2018-11-27 14:06:19,0.079s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify you clicked on [OK],2018-11-27 14:06:19,2018-11-27 14:06:20,0.663s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:20,2018-11-27 14:06:21,1.002s,PASSED
+click,Chrome 70.0.3538.102,Click on the second [Click me!] button,2018-11-27 14:06:21,2018-11-27 14:06:21,0.092s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:21,2018-11-27 14:06:23,2.002s,PASSED
+dismissAlert,Chrome 70.0.3538.102,Click on [Cancel] from Alert,2018-11-27 14:06:23,2018-11-27 14:06:23,0.093s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify you clicked on [Cancel],2018-11-27 14:06:23,2018-11-27 14:06:23,0.524s,PASSED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-27 14:06:23,2018-11-27 14:06:24,0.093s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:24,2018-11-27 14:06:26,2.002s,PASSED
+click,Chrome 70.0.3538.102,Click on [Click for Prompt Box] button,2018-11-27 14:06:26,2018-11-27 14:06:26,0.172s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:26,2018-11-27 14:06:27,1.003s,PASSED
+setAlertText,Chrome 70.0.3538.102,Input text into prompt popup,2018-11-27 14:06:27,2018-11-27 14:06:27,0.361s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:27,2018-11-27 14:06:29,2.005s,PASSED
+acceptAlert,Chrome 70.0.3538.102,,2018-11-27 14:06:29,2018-11-27 14:06:29,0.047s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify inputted text,2018-11-27 14:06:29,2018-11-27 14:06:30,0.766s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:30,2018-11-27 14:06:31,1.066s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-27 14:06:31,2018-11-27 14:06:32,0.985s,PASSED
+,,,,,,
+Test Cases/Demo/Text,Chrome 70.0.3538.102,,2018-11-27 14:06:32,2018-11-27 14:06:52,20.415s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 14:06:32,2018-11-27 14:06:32,0.002s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 14:06:33,2018-11-27 14:06:36,3.028s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to [Simple Form Demo] Screen,2018-11-27 14:06:36,2018-11-27 14:06:38,2.288s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-27 14:06:38,2018-11-27 14:06:40,1.343s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify text [This would be your first example to start with Selenium.] with specified value,2018-11-27 14:06:40,2018-11-27 14:06:40,0.528s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.102,,2018-11-27 14:06:40,2018-11-27 14:06:42,2.005s,PASSED
+callTestCase,Chrome 70.0.3538.102,Connect Database,2018-11-27 14:06:42,2018-11-27 14:06:51,8.344s,PASSED
+"Statement - rs = CustomKeywords.demo.Database.executeQuery(com.kms.katalon.core.testdata.TestDataFactory.findTestData(Demo/Sample_TC_Text_xlsx).getValue(14, 6))",Chrome 70.0.3538.102,Query expected text from database,2018-11-27 14:06:51,2018-11-27 14:06:51,0.778s,PASSED
+Statement - description = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-27 14:06:51,2018-11-27 14:06:51,0.001s,PASSED
+Statement - While (rs.next()),Chrome 70.0.3538.102,,2018-11-27 14:06:51,2018-11-27 14:06:52,0.023s,PASSED
+Statement - out.println(description),Chrome 70.0.3538.102,,2018-11-27 14:06:52,2018-11-27 14:06:52,0.015s,PASSED
+demo.Database.closeDatabaseConnection,Chrome 70.0.3538.102,,2018-11-27 14:06:52,2018-11-27 14:06:52,0.022s,PASSED
+verifyEqual,Chrome 70.0.3538.102,Verify text [This would be your first example to start with Selenium.] with result getting from database,2018-11-27 14:06:52,2018-11-27 14:06:52,0.121s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,,2018-11-27 14:06:52,2018-11-27 14:06:52,0.710s,PASSED
+,,,,,,
+Test Cases/Demo/Textbox,Chrome 70.0.3538.102,,2018-11-27 14:06:52,2018-11-27 14:07:16,24.065s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 14:06:53,2018-11-27 14:06:53,0.003s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 14:06:53,2018-11-27 14:06:57,3.870s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to [Simple Form Demo] Screen,2018-11-27 14:06:57,2018-11-27 14:06:59,2.078s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:06:59,2018-11-27 14:07:01,2.002s,PASSED
+setText,Chrome 70.0.3538.102,Enter message,2018-11-27 14:07:01,2018-11-27 14:07:02,1.093s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:07:02,2018-11-27 14:07:03,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 14:07:03,2018-11-27 14:07:03,0.337s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify the value of textbox with sepcified value,2018-11-27 14:07:03,2018-11-27 14:07:03,0.272s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.102,,2018-11-27 14:07:03,2018-11-27 14:07:05,2.000s,PASSED
+callTestCase,Chrome 70.0.3538.102,Connect Database,2018-11-27 14:07:05,2018-11-27 14:07:16,10.339s,PASSED
+Statement - rs = CustomKeywords.demo.Database.executeQuery(query_message_from_db),Chrome 70.0.3538.102,Query message from database,2018-11-27 14:07:16,2018-11-27 14:07:16,0.282s,PASSED
+Statement - description = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:16,0.003s,PASSED
+Statement - While (rs.next()),Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:16,0.014s,PASSED
+demo.Database.closeDatabaseConnection,Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:16,0.004s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify message input on page with message getting from database,2018-11-27 14:07:16,2018-11-27 14:07:16,0.186s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:16,0.132s,PASSED
+,,,,,,
+Test Cases/Demo/Upload,Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:30,13.228s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 14:07:16,2018-11-27 14:07:16,0.000s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 14:07:17,2018-11-27 14:07:20,3.551s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-27 14:07:20,2018-11-27 14:07:27,6.304s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-27 14:07:27,2018-11-27 14:07:28,1.150s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 14:07:28,2018-11-27 14:07:29,1.002s,PASSED
+uploadFile,Chrome 70.0.3538.102,,2018-11-27 14:07:29,2018-11-27 14:07:29,0.119s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 14:07:29,2018-11-27 14:07:29,0.254s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 14:07:29,2018-11-27 14:07:29,0.196s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,,2018-11-27 14:07:29,2018-11-27 14:07:30,0.363s,PASSED

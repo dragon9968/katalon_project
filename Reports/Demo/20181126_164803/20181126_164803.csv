@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-26 16:48:09,2018-11-26 16:52:28,4m - 19.081s,PASSED
+,,,,,,
+Test Cases/Demo/DataTable_Pagination,Chrome 70.0.3538.102,,2018-11-26 16:48:10,2018-11-26 16:50:40,2m - 30.089s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 16:48:10,2018-11-26 16:48:10,0.128s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-26 16:48:11,2018-11-26 16:48:18,6.655s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-26 16:48:18,2018-11-26 16:48:19,1.899s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-26 16:48:19,2018-11-26 16:48:21,1.885s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-26 16:48:21,2018-11-26 16:48:21,0.072s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-26 16:48:21,2018-11-26 16:48:21,0.011s,PASSED
+"Statement - pagination = driver.findElements(org.openqa.selenium.By.xpath("".//*[@id=""example_paginate""]/span/a""))",Chrome 70.0.3538.102,,2018-11-26 16:48:21,2018-11-26 16:48:22,0.271s,PASSED
+Statement - size = pagination.size(),Chrome 70.0.3538.102,,2018-11-26 16:48:22,2018-11-26 16:48:22,0.001s,PASSED
+"Statement - println(""Total Pages of this site is :"" + size)",Chrome 70.0.3538.102,,2018-11-26 16:48:22,2018-11-26 16:48:22,0.005s,PASSED
+Statement - row_data_table = 1,Chrome 70.0.3538.102,,2018-11-26 16:48:22,2018-11-26 16:48:22,0.003s,PASSED
+"Statement - For ([i = 1, i <= size, (i++)])",Chrome 70.0.3538.102,,2018-11-26 16:48:22,2018-11-26 16:50:40,2m - 18.199s,PASSED
+,,,,,,
+Test Cases/Demo/Excel_with_Database,Chrome 70.0.3538.102,,2018-11-26 16:50:40,2018-11-26 16:51:43,1m - 3.161s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 16:50:40,2018-11-26 16:50:40,0.003s,PASSED
+"Statement - downloadPath = ""C:\Users\longnguyen\Downloads\Selenium Easy - Download Table Data to CSV, Excel, PDF and Print.xlsx""",Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.001s,PASSED
+"Statement - sheetname = ""Sheet1""",Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.001s,PASSED
+Statement - total_excel_row = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.000s,PASSED
+Statement - excel_column = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.001s,PASSED
+Statement - Name = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.000s,PASSED
+Statement - Position = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.001s,PASSED
+Statement - Office = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.000s,PASSED
+Statement - StartDate = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.001s,PASSED
+Statement - Salary = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.000s,PASSED
+Statement - Age = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:41,0.002s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-26 16:50:41,2018-11-26 16:50:52,11.070s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-26 16:50:52,2018-11-26 16:50:57,4.975s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-26 16:50:57,2018-11-26 16:50:58,1.341s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 16:50:58,2018-11-26 16:50:59,1.027s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 16:50:59,2018-11-26 16:51:00,0.896s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 16:51:00,2018-11-26 16:51:02,2.002s,PASSED
+demo.ReadExcel.setExcelFile,Chrome 70.0.3538.102,,2018-11-26 16:51:02,2018-11-26 16:51:05,2.617s,PASSED
+Statement - total_excel_row = CustomKeywords.demo.ReadExcel.getRowCount(sheetname),Chrome 70.0.3538.102,,2018-11-26 16:51:05,2018-11-26 16:51:05,0.164s,PASSED
+Statement - println(total_excel_row),Chrome 70.0.3538.102,,2018-11-26 16:51:05,2018-11-26 16:51:05,0.005s,PASSED
+"Statement - For ([row = 1, row < total_excel_row, (row++)])",Chrome 70.0.3538.102,,2018-11-26 16:51:05,2018-11-26 16:51:43,38.247s,PASSED
+,,,,,,
+Test Cases/Demo/Download,Chrome 70.0.3538.102,,2018-11-26 16:51:43,2018-11-26 16:52:02,19.091s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 16:51:43,2018-11-26 16:51:43,0.001s,PASSED
+"Statement - downloadPath = ""C:\Users\longnguyen\Downloads""",Chrome 70.0.3538.102,,2018-11-26 16:51:44,2018-11-26 16:51:44,0.002s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-26 16:51:44,2018-11-26 16:51:49,5.808s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-26 16:51:49,2018-11-26 16:51:57,7.479s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-26 16:51:57,2018-11-26 16:51:58,1.537s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 16:51:58,2018-11-26 16:51:59,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-26 16:51:59,2018-11-26 16:52:00,0.513s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-26 16:52:00,2018-11-26 16:52:02,2.001s,PASSED
+"Statement - org.testng.Assert.assertTrue(CustomKeywords.demo.Downloadfile.isFileDownloaded(downloadPath, ""Selenium Easy - Download Table Data to CSV, Excel, PDF and Print.xlsx""), ""Failed to download Expected document"")",Chrome 70.0.3538.102,,2018-11-26 16:52:02,2018-11-26 16:52:02,0.204s,PASSED
+,,,,,,
+Test Cases/Demo/DataTable_Normal,Chrome 70.0.3538.102,,2018-11-26 16:52:02,2018-11-26 16:52:28,25.317s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-26 16:52:02,2018-11-26 16:52:02,0.001s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-26 16:52:03,2018-11-26 16:52:09,5.797s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-26 16:52:09,2018-11-26 16:52:13,3.335s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-26 16:52:13,2018-11-26 16:52:14,1.548s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-26 16:52:14,2018-11-26 16:52:14,0.014s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-26 16:52:14,2018-11-26 16:52:14,0.000s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-26 16:52:14,2018-11-26 16:52:28,13.501s,PASSED

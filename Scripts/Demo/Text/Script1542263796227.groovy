@@ -38,9 +38,9 @@ String description
 
 while (rs.next()) {
     description = rs.getString(1)
-
-    System.out.println(description)
 }
+
+System.out.println(description)
 
 CustomKeywords.'demo.Database.closeDatabaseConnection'()
 

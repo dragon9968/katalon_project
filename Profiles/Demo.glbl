@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('Demo/Internal_db').getValue(2, 1)</initValue>
-      <name>btn</name>
+      <initValue>'E:\\WORK\\Katalon_CURA Testproject\\Screenshot\\'</initValue>
+      <name>screenshot_path</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
