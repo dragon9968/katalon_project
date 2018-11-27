@@ -17,3 +17,5 @@ WebUI.acceptAlert()
 
 WebUI.delay(0)
 
+WebUI.deleteAllCookies()
+
