@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-27 15:28:23,2018-11-27 15:28:56,32.824s,ERROR
+,,,,,,
+Test Cases/Demo/Text,Chrome 70.0.3538.102,,2018-11-27 15:28:24,2018-11-27 15:28:41,16.743s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 15:28:24,2018-11-27 15:28:24,0.115s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 15:28:25,2018-11-27 15:28:31,5.895s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to [Simple Form Demo] Screen,2018-11-27 15:28:31,2018-11-27 15:28:35,4.037s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-27 15:28:35,2018-11-27 15:28:36,1.387s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify text [This would be your first example to start with Selenium.] with specified value,2018-11-27 15:28:36,2018-11-27 15:28:37,0.889s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.102,,2018-11-27 15:28:37,2018-11-27 15:28:39,2.033s,PASSED
+callTestCase,Chrome 70.0.3538.102,Connect Database,2018-11-27 15:28:39,2018-11-27 15:28:41,1.187s,FAILED
+,,,,,,
+Test Cases/Demo/Textbox,Chrome 70.0.3538.102,,2018-11-27 15:28:41,2018-11-27 15:28:55,14.414s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 15:28:41,2018-11-27 15:28:41,0.008s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-27 15:28:41,2018-11-27 15:28:46,4.995s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Go to [Simple Form Demo] Screen,2018-11-27 15:28:46,2018-11-27 15:28:49,2.186s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 15:28:49,2018-11-27 15:28:51,2.009s,PASSED
+setText,Chrome 70.0.3538.102,Enter message,2018-11-27 15:28:51,2018-11-27 15:28:51,0.698s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 15:28:51,2018-11-27 15:28:52,1.001s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 15:28:52,2018-11-27 15:28:53,0.334s,PASSED
+verifyTextPresent,Chrome 70.0.3538.102,Verify the value of textbox with sepcified value,2018-11-27 15:28:53,2018-11-27 15:28:53,0.247s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.102,,2018-11-27 15:28:53,2018-11-27 15:28:55,2.001s,PASSED
+callTestCase,Chrome 70.0.3538.102,Connect Database,2018-11-27 15:28:55,2018-11-27 15:28:55,0.217s,FAILED

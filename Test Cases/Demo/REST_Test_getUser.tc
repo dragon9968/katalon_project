@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REST_Test_getUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3c364f8-6a31-4254-b742-c5af5d7e125e</testCaseGuid>
+</TestCaseEntity>

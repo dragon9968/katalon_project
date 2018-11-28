@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.102,,2018-11-27 16:52:33,2018-11-27 16:53:19,45.629s,PASSED
+,,,,,,
+Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker,Chrome 70.0.3538.102,,2018-11-27 16:52:34,2018-11-27 16:53:14,39.394s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 16:52:35,2018-11-27 16:52:35,0.301s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-27 16:52:36,2018-11-27 16:53:00,23.925s,PASSED
+selectOptionByValue,Chrome 70.0.3538.102,,2018-11-27 16:53:00,2018-11-27 16:53:00,0.628s,PASSED
+"Statement - Option_Value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C), value, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-27 16:53:00,2018-11-27 16:53:00,0.103s,PASSED
+Statement - println(Option_Value),Chrome 70.0.3538.102,,2018-11-27 16:53:00,2018-11-27 16:53:00,0.019s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:00,2018-11-27 16:53:01,1.003s,PASSED
+check,Chrome 70.0.3538.102,,2018-11-27 16:53:01,2018-11-27 16:53:02,0.524s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:02,2018-11-27 16:53:03,1.004s,PASSED
+verifyElementChecked,Chrome 70.0.3538.102,,2018-11-27 16:53:03,2018-11-27 16:53:03,0.173s,PASSED
+"Statement - Element_Checked = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm), value, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-27 16:53:03,2018-11-27 16:53:03,0.069s,PASSED
+Statement - println(Element_Checked),Chrome 70.0.3538.102,,2018-11-27 16:53:03,2018-11-27 16:53:03,0.000s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:03,2018-11-27 16:53:04,1.001s,PASSED
+check,Chrome 70.0.3538.102,,2018-11-27 16:53:04,2018-11-27 16:53:04,0.317s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:04,2018-11-27 16:53:05,1.002s,PASSED
+verifyElementChecked,Chrome 70.0.3538.102,,2018-11-27 16:53:05,2018-11-27 16:53:06,0.111s,PASSED
+"Statement - Health_Program = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs), value, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-27 16:53:06,2018-11-27 16:53:06,0.094s,PASSED
+Statement - println(Health_Program),Chrome 70.0.3538.102,,2018-11-27 16:53:06,2018-11-27 16:53:06,0.004s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:06,2018-11-27 16:53:07,1.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-27 16:53:07,2018-11-27 16:53:08,0.902s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:08,2018-11-27 16:53:09,1.002s,PASSED
+"Statement - datepicker_value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28), value, CONTINUE_ON_FAILURE)",Chrome 70.0.3538.102,,2018-11-27 16:53:09,2018-11-27 16:53:09,0.035s,PASSED
+Statement - println(datepicker_value),Chrome 70.0.3538.102,,2018-11-27 16:53:09,2018-11-27 16:53:09,0.001s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:09,2018-11-27 16:53:10,1.010s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-27 16:53:10,2018-11-27 16:53:11,1.049s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 16:53:11,2018-11-27 16:53:13,2.222s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:53:13,2018-11-27 16:53:13,0.255s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:53:13,2018-11-27 16:53:13,0.084s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:53:13,2018-11-27 16:53:13,0.264s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:53:13,2018-11-27 16:53:14,0.199s,PASSED
+verifyElementText,Chrome 70.0.3538.102,,2018-11-27 16:53:14,2018-11-27 16:53:14,0.064s,PASSED
+,,,,,,
+Test Cases/Demo/HomePage,Chrome 70.0.3538.102,,2018-11-27 16:53:14,2018-11-27 16:53:19,5.341s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.102,,2018-11-27 16:53:14,2018-11-27 16:53:14,0.002s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-27 16:53:14,2018-11-27 16:53:17,3.004s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-27 16:53:17,2018-11-27 16:53:19,2.035s,PASSED

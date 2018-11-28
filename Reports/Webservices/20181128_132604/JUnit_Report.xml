@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Webservices" time="22" tests="3" failures="0" errors="0">
+   <testsuite name="Webservices" tests="3" failures="0" errors="0" time="22" timestamp="2018-11-28 13:26:10" hostname="longnguyen - LONGNGUYEN.vodc.lan" id="Test Suites/Webservices">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Webservices\\20181128_132604"/>
+         <property name="logFiles" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Webservices\\20181128_132604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="longnguyen - LONGNGUYEN.vodc.lan"/>
+         <property name="hostAddress" value="10.10.10.62"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+      </properties>
+      <testcase name="Test Cases/Demo/REST_Test_postWarehouseProInvByItemID" classname="Test Cases/Demo/REST_Test_postWarehouseProInvByItemID" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:26:10 - [TEST_CASE][PASSED] - Test Cases/Demo/REST_Test_postWarehouseProInvByItemID: Test Cases/Demo/REST_Test_postWarehouseProInvByItemID
+
+2018-11-28 13:26:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-28 13:26:11 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:11 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/REST_postWarehouseProductInventoryByItemID)): Send request successfully
+
+2018-11-28 13:26:16 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-28 13:26:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:18 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:20 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:21 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo/SOAP_Test_getBankinfo" classname="Test Cases/Demo/SOAP_Test_getBankinfo" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:26:22 - [TEST_CASE][PASSED] - Test Cases/Demo/SOAP_Test_getBankinfo: Test Cases/Demo/SOAP_Test_getBankinfo
+
+2018-11-28 13:26:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:22 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-28 13:26:22 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:23 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/SOAP_getBankinfo)): Send request successfully
+
+2018-11-28 13:26:29 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-28 13:26:29 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-28 13:26:29 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-28 13:26:30 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-28 13:26:30 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-28 13:26:30 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-28 13:26:31 - [MESSAGE][PASSED] - Verify element text successfully
+
+2018-11-28 13:26:31 - [TEST_STEP][PASSED] - verifyElementText: Verify element text successfully
+
+2018-11-28 13:26:31 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo/REST_Test_getUser" classname="Test Cases/Demo/REST_Test_getUser" status="PASSED">
+         <system-out><![CDATA[2018-11-28 13:26:31 - [TEST_CASE][PASSED] - Test Cases/Demo/REST_Test_getUser: Test Cases/Demo/REST_Test_getUser
+
+2018-11-28 13:26:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-28 13:26:31 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/REST_getUser): Finding Test Object with id 'Object Repository/Demo/Webservices/REST_getUser'
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - params = new java.util.ArrayList(): null
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - params.add(new com.kms.katalon.core.testobject.TestObjectProperty(id, com.kms.katalon.core.testobject.ConditionType.EQUALS, 3)): null
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - request.setRestParameters(params): null
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request): Send request successfully
+
+2018-11-28 13:26:32 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - Statement - println(result): null
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-11-28 13:26:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-28 13:26:32 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 13:26:10 - [TEST_SUITE][PASSED] - Webservices: Test Cases/Demo/REST_Test_getUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

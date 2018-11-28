@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webservices,,,2018-11-28 09:17:38,2018-11-28 09:17:55,16.549s,FAILED
+,,,,,,
+Test Cases/Demo/REST_Test_getWarehouseProInvByItemID,,,2018-11-28 09:17:40,2018-11-28 09:17:50,9.963s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 09:17:40,2018-11-28 09:17:40,0.161s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/getWarehouseProductInventoryByItemID)),,,2018-11-28 09:17:40,2018-11-28 09:17:44,3.632s,PASSED
+verifyElementPropertyValue,,Verify [itemKeyTypeCode] value return from WS match with expected value test,2018-11-28 09:17:44,2018-11-28 09:17:47,2.597s,PASSED
+verifyElementPropertyValue,,Verify [whseLocTypeCcde] value return from WS match with expected value test,2018-11-28 09:17:47,2018-11-28 09:17:47,0.612s,PASSED
+verifyElementPropertyValue,,Verify [whseLocNbr] value return from WS match with expected value test,2018-11-28 09:17:47,2018-11-28 09:17:48,0.718s,FAILED
+verifyElementPropertyValue,,Verify [onHandQty] value return from WS match with expected value test,2018-11-28 09:17:48,2018-11-28 09:17:48,0.551s,PASSED
+verifyElementPropertyValue,,Verify [billQty] value return from WS match with expected value test,2018-11-28 09:17:48,2018-11-28 09:17:49,0.491s,PASSED
+verifyElementPropertyValue,,Verify [offsiteQty] value return from WS match with expected value test,2018-11-28 09:17:49,2018-11-28 09:17:49,0.490s,PASSED
+,,,,,,
+Test Cases/Demo/SOAP_Test_getBankinfo,,,2018-11-28 09:17:50,2018-11-28 09:17:55,4.929s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 09:17:50,2018-11-28 09:17:50,0.034s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/SOAP_getBankinfo)),,,2018-11-28 09:17:51,2018-11-28 09:17:52,1.464s,PASSED
+verifyElementText,,Verify bic detail value return from WS match with expected value test,2018-11-28 09:17:52,2018-11-28 09:17:53,0.892s,PASSED
+verifyElementText,,Verify bic bezeichnung detail value return from WS match with expected value test,2018-11-28 09:17:53,2018-11-28 09:17:53,0.452s,PASSED
+verifyElementText,,Verify bic ort detail value return from WS match with expected value test,2018-11-28 09:17:53,2018-11-28 09:17:54,0.553s,PASSED
+verifyElementText,,Verify bic plz detail value return from WS match with expected value test,2018-11-28 09:17:54,2018-11-28 09:17:54,0.584s,PASSED

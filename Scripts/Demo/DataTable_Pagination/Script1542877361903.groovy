@@ -20,17 +20,22 @@ import org.junit.After
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+'Open Browser and Navigate to DataTable Page'
 WebUI.openBrowser('')
 WebUI.navigateToUrl('file:///E:/WORK/PassPulFramework/PassPul/PassPul/SeleniumEasy/www.seleniumeasy.com/test/table-data-download-demo.html')
 WebUI.maximizeWindow()
 WebUI.scrollToPosition(250, 250)
 WebDriver driver = DriverFactory.getWebDriver()
+'Get Pages in DataTable'
 List<WebElement> pagination = driver.findElements(By.xpath('.//*[@id="example_paginate"]/span/a'))
 int size = pagination.size()
 println("Total Pages of this site is :" +size)
+
+'Go to each page to get data in DataTable'
 int row_data_table = 1;
     for (int i = 1; i <= size; i++) {
        try {
+		    'Get Table Locator and count row and column total'
 		     WebElement element = driver.findElement(By.xpath(".//*[@id='example_paginate']/span/a["+i+"]")).click()
 		     Thread.sleep(2000)
 		     List<WebElement> row_table = driver.findElements(By.xpath('.//*[@id=\'example\']/tbody/tr'))
@@ -41,11 +46,14 @@ int row_data_table = 1;
                      List<WebElement> column_table = row_table.get(row).findElements(By.tagName('td'))
                      int column_count = column_table.size()
                      println((('No of cell in rows : ' + row) + ' are ') + column_count)
-	 
+	                  
+					 'Fetch through each row and column to get data'
                        for (int column = 0; column < column_count; column++) {
                          String cell_text = column_table.get(column).getText()
                          println((((('Cell value of row : ' + row) + ' and cell ') + column) + ' is ') + cell_text)
-                          WebUI.verifyMatch(cell_text, findTestData('Demo/Data_Table').getValue(column + 1, row_data_table), false, FailureHandling.CONTINUE_ON_FAILURE)
+						 
+						 'Mapping (Compare) data on Table with Database'
+						 WebUI.verifyMatch(cell_text, findTestData('Demo/Data_Table').getValue(column + 1, row_data_table), false, FailureHandling.CONTINUE_ON_FAILURE)
                            }
 	           row_data_table = row_data_table + 1
 	           println(row_data_table)

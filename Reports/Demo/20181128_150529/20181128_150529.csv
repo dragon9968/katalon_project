@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.110,,2018-11-28 15:05:33,2018-11-28 15:05:49,15.889s,FAILED
+,,,,,,
+Test Cases/Demo/Download,Chrome 70.0.3538.110,,2018-11-28 15:05:34,2018-11-28 15:05:49,15.066s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-11-28 15:05:34,2018-11-28 15:05:35,0.370s,PASSED
+"Statement - downloadPath = ""C:\Users\longnguyen\Downloads""",Chrome 70.0.3538.110,,2018-11-28 15:05:35,2018-11-28 15:05:35,0.004s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-28 15:05:35,2018-11-28 15:05:40,5.143s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-28 15:05:40,2018-11-28 15:05:44,3.814s,PASSED
+maximizeWindow,Chrome 70.0.3538.110,,2018-11-28 15:05:44,2018-11-28 15:05:46,1.426s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 15:05:46,2018-11-28 15:05:47,1.030s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 15:05:47,2018-11-28 15:05:47,0.597s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 15:05:47,2018-11-28 15:05:49,2.001s,PASSED
+"Statement - org.testng.Assert.assertTrue(CustomKeywords.demo.Downloadfile.isFileDownloaded(downloadPath, ""Selenium Easy123 - Download Table Data to CSV, Excel, PDF and Print.xlsx""), ""Failed to download Expected document"")",Chrome 70.0.3538.110,,2018-11-28 15:05:49,2018-11-28 15:05:49,0.125s,PASSED

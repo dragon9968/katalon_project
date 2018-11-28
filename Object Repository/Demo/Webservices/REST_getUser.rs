@@ -3,7 +3,7 @@
    <description></description>
    <name>REST_getUser</name>
    <tag></tag>
-   <elementGuidId>038c7ab6-5361-4f5f-bbfc-7fa9ce0b51fa</elementGuidId>
+   <elementGuidId>a9dc681d-ef13-48b9-90ac-0f06e753cc44</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -11,19 +11,12 @@
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://petstore.swagger.io/v2/pet/findByStatus?status=${status}</restUrl>
+   <restUrl>https://reqres.in/api/users/</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>'available'</defaultValue>
-      <description></description>
-      <id>cca095d7-a4f0-4267-9ab1-c3fc602cc53d</id>
-      <masked>false</masked>
-      <name>status</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

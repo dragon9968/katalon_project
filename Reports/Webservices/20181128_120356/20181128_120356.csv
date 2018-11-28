@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webservices,,,2018-11-28 12:04:02,2018-11-28 12:04:29,26.703s,FAILED
+,,,,,,
+Test Cases/Demo/REST_Test_postWarehouseProInvByItemID,,,2018-11-28 12:04:03,2018-11-28 12:04:16,13.333s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 12:04:03,2018-11-28 12:04:03,0.220s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/REST_postWarehouseProductInventoryByItemID)),,,2018-11-28 12:04:04,2018-11-28 12:04:09,4.551s,PASSED
+verifyElementPropertyValue,,Verify [itemKeyTypeCode] value return from WS match with expected value test,2018-11-28 12:04:09,2018-11-28 12:04:13,3.838s,PASSED
+verifyElementPropertyValue,,Verify [whseLocTypeCcde] value return from WS match with expected value test,2018-11-28 12:04:13,2018-11-28 12:04:13,0.954s,PASSED
+verifyElementPropertyValue,,Verify [whseLocNbr] value return from WS match with expected value test,2018-11-28 12:04:13,2018-11-28 12:04:14,0.785s,FAILED
+verifyElementPropertyValue,,Verify [onHandQty] value return from WS match with expected value test,2018-11-28 12:04:14,2018-11-28 12:04:15,0.572s,PASSED
+verifyElementPropertyValue,,Verify [billQty] value return from WS match with expected value test,2018-11-28 12:04:15,2018-11-28 12:04:16,0.890s,PASSED
+verifyElementPropertyValue,,Verify [offsiteQty] value return from WS match with expected value test,2018-11-28 12:04:16,2018-11-28 12:04:16,0.592s,PASSED
+,,,,,,
+Test Cases/Demo/SOAP_Test_getBankinfo,,,2018-11-28 12:04:16,2018-11-28 12:04:26,9.665s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 12:04:17,2018-11-28 12:04:17,0.013s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/SOAP_getBankinfo)),,,2018-11-28 12:04:17,2018-11-28 12:04:23,6.011s,PASSED
+verifyElementText,,Verify bic detail value return from WS match with expected value test,2018-11-28 12:04:23,2018-11-28 12:04:24,1.095s,PASSED
+verifyElementText,,Verify bic bezeichnung detail value return from WS match with expected value test,2018-11-28 12:04:24,2018-11-28 12:04:25,0.508s,PASSED
+verifyElementText,,Verify bic ort detail value return from WS match with expected value test,2018-11-28 12:04:25,2018-11-28 12:04:25,0.461s,PASSED
+verifyElementText,,Verify bic plz detail value return from WS match with expected value test,2018-11-28 12:04:25,2018-11-28 12:04:26,0.664s,PASSED
+,,,,,,
+Test Cases/Demo/REST_Test_getUser,,,2018-11-28 12:04:26,2018-11-28 12:04:29,2.466s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 12:04:26,2018-11-28 12:04:26,0.097s,PASSED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/REST_getUser),,,2018-11-28 12:04:27,2018-11-28 12:04:27,0.043s,PASSED
+Statement - params = new java.util.ArrayList(),,,2018-11-28 12:04:27,2018-11-28 12:04:27,0.003s,PASSED
+"Statement - params.add(new com.kms.katalon.core.testobject.TestObjectProperty(id, com.kms.katalon.core.testobject.ConditionType.EQUALS, 3))",,,2018-11-28 12:04:27,2018-11-28 12:04:27,0.017s,PASSED
+Statement - request.setRestParameters(params),,,2018-11-28 12:04:27,2018-11-28 12:04:28,0.508s,PASSED
+Statement - result = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),,,2018-11-28 12:04:28,2018-11-28 12:04:29,0.794s,PASSED
+Statement - println(result),,,2018-11-28 12:04:29,2018-11-28 12:04:29,0.002s,PASSED
+verifyElementPropertyValue,,,2018-11-28 12:04:29,2018-11-28 12:04:29,0.022s,PASSED
+verifyElementPropertyValue,,,2018-11-28 12:04:29,2018-11-28 12:04:29,0.029s,PASSED
+verifyElementPropertyValue,,,2018-11-28 12:04:29,2018-11-28 12:04:29,0.054s,PASSED

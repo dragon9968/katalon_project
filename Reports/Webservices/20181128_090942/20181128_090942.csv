@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webservices,,,2018-11-28 09:09:46,2018-11-28 09:10:01,15.521s,FAILED
+,,,,,,
+Test Cases/Demo/REST_Test_getWarehouseProInvByItemID,,,2018-11-28 09:09:47,2018-11-28 09:09:56,8.867s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 09:09:47,2018-11-28 09:09:47,0.089s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/getWarehouseProductInventoryByItemID)),,,2018-11-28 09:09:48,2018-11-28 09:09:53,4.614s,PASSED
+verifyElementPropertyValue,,Verify [itemKeyTypeCode] value return from WS match with expected value test,2018-11-28 09:09:53,2018-11-28 09:09:55,2.306s,PASSED
+verifyElementPropertyValue,,Verify [whseLocTypeCcde] value return from WS match with expected value test,2018-11-28 09:09:55,2018-11-28 09:09:56,0.710s,PASSED
+verifyElementPropertyValue,,Verify [whseLocNbr] value return from WS match with expected value test,2018-11-28 09:09:56,2018-11-28 09:09:56,0.525s,FAILED
+,,,,,,
+Test Cases/Demo/SOAP_Test_getBankinfo,,,2018-11-28 09:09:56,2018-11-28 09:10:01,5.341s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-28 09:09:56,2018-11-28 09:09:56,0.040s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/SOAP_getBankinfo)),,,2018-11-28 09:09:57,2018-11-28 09:09:58,1.565s,PASSED
+verifyElementText,,Verify bic detail value return from WS match with expected value test,2018-11-28 09:09:58,2018-11-28 09:10:00,1.333s,PASSED
+verifyElementText,,Verify bic bezeichnung detail value return from WS match with expected value test,2018-11-28 09:10:00,2018-11-28 09:10:00,0.663s,PASSED
+verifyElementText,,Verify bic ort detail value return from WS match with expected value test,2018-11-28 09:10:00,2018-11-28 09:10:01,0.592s,PASSED
+verifyElementText,,Verify bic plz detail value return from WS match with expected value test,2018-11-28 09:10:01,2018-11-28 09:10:01,0.545s,PASSED

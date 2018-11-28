@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webservices,,,2018-11-27 15:26:47,2018-11-27 15:27:06,18.706s,PASSED
+,,,,,,
+Test Cases/Demo/REST_Test_getWarehouseProInvByItemID,,,2018-11-27 15:26:48,2018-11-27 15:26:58,10.075s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-27 15:26:48,2018-11-27 15:26:48,0.106s,PASSED
+Statement - Try,,,2018-11-27 15:26:49,2018-11-27 15:26:58,9.449s,PASSED
+,,,,,,
+Test Cases/Demo/SOAP_Test_getBankinfo,,,2018-11-27 15:26:58,2018-11-27 15:27:06,7.680s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-11-27 15:26:58,2018-11-27 15:26:58,0.012s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/SOAP_getBankinfo)),,,2018-11-27 15:26:59,2018-11-27 15:27:03,4.206s,PASSED
+verifyElementText,,,2018-11-27 15:27:03,2018-11-27 15:27:04,0.811s,PASSED
+verifyElementText,,,2018-11-27 15:27:04,2018-11-27 15:27:04,0.517s,PASSED
+verifyElementText,,,2018-11-27 15:27:04,2018-11-27 15:27:05,0.958s,PASSED
+verifyElementText,,,2018-11-27 15:27:05,2018-11-27 15:27:06,0.465s,PASSED

@@ -44,22 +44,22 @@ public class ReadExcel {
 			throw (e);
 		}
 	}
-	
+
 	@Keyword
 	def getCellData(int RowNum, int ColNum) throws Exception{
-		
-			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
-			switch(Cell.getCellType()){
+
+		Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
+		switch(Cell.getCellType()){
 			case Cell.CELL_TYPE_STRING:
 				String CellData = Cell.getStringCellValue();
 				return CellData;
-				break;		
+				break;
 			case Cell.CELL_TYPE_NUMERIC:
 				int CellData = Cell.getNumericCellValue();
-				return CellData;	
+				return CellData;
 		}
 	}
-	
+
 	@Keyword
 	def getRowCount(String SheetName){
 		ExcelWSheet = ExcelWBook.getSheet(SheetName);

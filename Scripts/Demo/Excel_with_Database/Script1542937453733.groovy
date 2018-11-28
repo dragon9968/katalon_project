@@ -15,9 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.testng.Assert as Assert
 
 String downloadPath = 'C:\\Users\\longnguyen\\Downloads\\Selenium Easy - Download Table Data to CSV, Excel, PDF and Print.xlsx'
+
 String sheetname = 'Sheet1'
-int total_excel_row,excel_column
-String Name,Position,Office,StartDate,Salary,Age
+
+int total_excel_row, excel_column
+
+String Name,Position,Office,Age,StartDate,Salary
 
 WebUI.openBrowser('')
 
@@ -28,26 +31,46 @@ WebUI.maximizeWindow()
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Demo/Upload_Download/a_Excel'))
+
 WebUI.delay(2)
 
 CustomKeywords.'demo.ReadExcel.setExcelFile'(downloadPath, sheetname)
+
 total_excel_row = CustomKeywords.'demo.ReadExcel.getRowCount'(sheetname)
+
 println(total_excel_row)
+
 for (int row = 1; row < total_excel_row; row++) {
-	excel_column = CustomKeywords.'demo.ReadExcel.getColumnCount'(sheetname,row)
-	println(excel_column)
-	int column = 0
-	     Name = CustomKeywords.'demo.ReadExcel.getCellData'(row, 0)
-	     Position = CustomKeywords.'demo.ReadExcel.getCellData'(row,  1)
-	     Office = CustomKeywords.'demo.ReadExcel.getCellData'(row,  2)
-	     Age = CustomKeywords.'demo.ReadExcel.getCellData'(row, 3)
-	     StartDate = CustomKeywords.'demo.ReadExcel.getCellData'(row, 4)
-	     Salary = CustomKeywords.'demo.ReadExcel.getCellData'(row, 5)
-	     println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary)
-		 WebUI.verifyMatch(Name, findTestData('Demo/Data_Table').getValue(column + 1, row), false, FailureHandling.CONTINUE_ON_FAILURE)
-		 WebUI.verifyMatch(Position, findTestData('Demo/Data_Table').getValue(column + 2, row), false, FailureHandling.CONTINUE_ON_FAILURE)
-		 WebUI.verifyMatch(Office, findTestData('Demo/Data_Table').getValue(column + 3, row), false, FailureHandling.CONTINUE_ON_FAILURE)
-		 WebUI.verifyMatch(Age, findTestData('Demo/Data_Table').getValue(column + 4, row), false, FailureHandling.CONTINUE_ON_FAILURE)
-		 WebUI.verifyMatch(StartDate, findTestData('Demo/Data_Table').getValue(column + 5, row), false, FailureHandling.CONTINUE_ON_FAILURE)
-		 WebUI.verifyMatch(Salary, findTestData('Demo/Data_Table').getValue(column + 6, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+    excel_column = CustomKeywords.'demo.ReadExcel.getColumnCount'(sheetname, row)
+
+    println(excel_column)
+
+    int column = 0
+
+    Name = CustomKeywords.'demo.ReadExcel.getCellData'(row, 0)
+
+    Position = CustomKeywords.'demo.ReadExcel.getCellData'(row, 1)
+
+    Office = CustomKeywords.'demo.ReadExcel.getCellData'(row, 2)
+
+    Age = CustomKeywords.'demo.ReadExcel.getCellData'(row, 3)
+
+    StartDate = CustomKeywords.'demo.ReadExcel.getCellData'(row, 4)
+
+    Salary = CustomKeywords.'demo.ReadExcel.getCellData'(row, 5)
+
+    println((((((((((Name + ' ') + Position) + ' ') + Office) + ' ') + Age) + ' ') + StartDate) + ' ') + Salary)
+
+    WebUI.verifyMatch(Name, findTestData('Demo/Data_Table').getValue(column + 1, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyMatch(Position, findTestData('Demo/Data_Table').getValue(column + 2, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyMatch(Office, findTestData('Demo/Data_Table').getValue(column + 3, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyMatch(Age, findTestData('Demo/Data_Table').getValue(column + 4, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyMatch(StartDate, findTestData('Demo/Data_Table').getValue(column + 5, row), false, FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.verifyMatch(Salary, findTestData('Demo/Data_Table').getValue(column + 6, row), false, FailureHandling.CONTINUE_ON_FAILURE)
 }
+

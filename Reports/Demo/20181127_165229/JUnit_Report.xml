@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="45" tests="2" failures="0" errors="0">
+   <testsuite name="Demo" tests="2" failures="0" errors="0" time="45" timestamp="2018-11-27 16:52:33" hostname="longnguyen - LONGNGUYEN.vodc.lan" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181127_165229"/>
+         <property name="logFiles" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181127_165229\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="longnguyen - LONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.10.62"/>
+         <property name="sessionId" value="c33936acbc253286230149bc595a5256"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker" classname="Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker" status="PASSED">
+         <system-out><![CDATA[2018-11-27 16:52:34 - [TEST_CASE][PASSED] - Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker: Test Cases/Demo/Checkbox_Radiobox_Dropdown_Datepicker
+
+2018-11-27 16:52:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-27 16:52:35 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-27 16:52:35 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-27 16:52:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Demo/Login' successfully
+
+2018-11-27 16:52:36 - [TEST_CASE][PASSED] - Test Cases/Demo/Login: Test Cases/Demo/Login
+
+2018-11-27 16:52:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-27 16:52:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-27 16:52:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-27 16:52:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-11-27 16:52:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:52:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:52:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/a_Make Appointment' is clicked on
+
+2018-11-27 16:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/a_Make Appointment' is clicked on
+
+2018-11-27 16:52:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:52:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:52:52 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Username_username'
+
+2018-11-27 16:52:53 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Username_username'
+
+2018-11-27 16:52:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:52:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:52:54 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Password_password'
+
+2018-11-27 16:52:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Password_password'
+
+2018-11-27 16:52:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:52:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/button_Login' is clicked on
+
+2018-11-27 16:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/button_Login' is clicked on
+
+2018-11-27 16:52:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Demo/Login' successfully
+
+2018-11-27 16:53:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-27 16:53:00 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-11-27 16:53:00 - [TEST_STEP][PASSED] - Statement - Option_Value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C), value, CONTINUE_ON_FAILURE): Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-11-27 16:53:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/select_Tokyo CURA Healthcare C' is: 'Seoul CURA Healthcare Center'
+
+2018-11-27 16:53:00 - [TEST_STEP][PASSED] - Statement - println(Option_Value): null
+
+2018-11-27 16:53:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:01 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is checked
+
+2018-11-27 16:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is checked
+
+2018-11-27 16:53:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:03 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is checked
+
+2018-11-27 16:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is checked
+
+2018-11-27 16:53:03 - [TEST_STEP][PASSED] - Statement - Element_Checked = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm), value, CONTINUE_ON_FAILURE): Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is: 'Yes'
+
+2018-11-27 16:53:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Apply for hospital readm' is: 'Yes'
+
+2018-11-27 16:53:03 - [TEST_STEP][PASSED] - Statement - println(Element_Checked): null
+
+2018-11-27 16:53:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:04 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is checked
+
+2018-11-27 16:53:04 - [MESSAGE][PASSED] - Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is checked
+
+2018-11-27 16:53:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:05 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is checked
+
+2018-11-27 16:53:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is checked
+
+2018-11-27 16:53:06 - [TEST_STEP][PASSED] - Statement - Health_Program = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs), value, CONTINUE_ON_FAILURE): Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is: 'Medicaid'
+
+2018-11-27 16:53:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/input_Medicaid_programs' is: 'Medicaid'
+
+2018-11-27 16:53:06 - [TEST_STEP][PASSED] - Statement - println(Health_Program): null
+
+2018-11-27 16:53:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:07 - [TEST_STEP][PASSED] - setText: Text '28/11/2018' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28'
+
+2018-11-27 16:53:08 - [MESSAGE][PASSED] - Text '28/11/2018' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28'
+
+2018-11-27 16:53:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:09 - [TEST_STEP][PASSED] - Statement - datepicker_value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28), value, CONTINUE_ON_FAILURE): Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28' is: '28/11/2018'
+
+2018-11-27 16:53:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/td_28' is: '28/11/2018'
+
+2018-11-27 16:53:09 - [TEST_STEP][PASSED] - Statement - println(datepicker_value): null
+
+2018-11-27 16:53:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-27 16:53:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-27 16:53:10 - [TEST_STEP][PASSED] - setText: Text 'Long test' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/textarea_Comment_comment'
+
+2018-11-27 16:53:11 - [MESSAGE][PASSED] - Text 'Long test' is set on object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/textarea_Comment_comment'
+
+2018-11-27 16:53:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/button_Book Appointment' is clicked on
+
+2018-11-27 16:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/button_Book Appointment' is clicked on
+
+2018-11-27 16:53:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Seoul CURA Healthcare Center' are matched.
+
+2018-11-27 16:53:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Seoul CURA Healthcare Center' are matched.
+
+2018-11-27 16:53:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Yes' are matched.
+
+2018-11-27 16:53:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Yes' are matched.
+
+2018-11-27 16:53:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Medicaid' are matched.
+
+2018-11-27 16:53:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Medicaid' are matched.
+
+2018-11-27 16:53:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/div_28112018' are matched.
+
+2018-11-27 16:53:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/div_28112018' are matched.
+
+2018-11-27 16:53:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Long test' are matched.
+
+2018-11-27 16:53:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/p_Long test' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Demo/HomePage" classname="Test Cases/Demo/HomePage" status="PASSED">
+         <system-out><![CDATA[2018-11-27 16:53:14 - [TEST_CASE][PASSED] - Test Cases/Demo/HomePage: Test Cases/Demo/HomePage
+
+2018-11-27 16:53:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-27 16:53:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-27 16:53:14 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-27 16:53:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-27 16:53:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-27 16:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/gotohomepage' is clicked on
+
+2018-11-27 16:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Checkbox_Radiobox_Dropdown_Datepicker/gotohomepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 16:52:33 - [TEST_SUITE][PASSED] - Demo: Test Cases/Demo/HomePage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

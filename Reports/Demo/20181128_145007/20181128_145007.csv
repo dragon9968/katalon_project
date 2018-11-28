@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.110,,2018-11-28 14:50:11,2018-11-28 14:50:30,19.443s,ERROR
+,,,,,,
+Test Cases/Demo/Excel_with_Database,Chrome 70.0.3538.110,,2018-11-28 14:50:12,2018-11-28 14:50:30,18.592s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-11-28 14:50:12,2018-11-28 14:50:12,0.185s,PASSED
+"Statement - downloadPath = ""C:\Users\longnguyen\Downloads\Selenium Easy - Download Table Data to CSV, Excel, PDF and Print.xlsx""",Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.003s,PASSED
+"Statement - sheetname = ""Sheet1""",Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.002s,PASSED
+Statement - total_excel_row = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.001s,PASSED
+Statement - excel_column = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.004s,PASSED
+Statement - Name = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.002s,PASSED
+Statement - Position = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.004s,PASSED
+Statement - Office = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.003s,PASSED
+Statement - StartDate = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.011s,PASSED
+Statement - Salary = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:13,0.002s,PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-28 14:50:13,2018-11-28 14:50:19,5.834s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-28 14:50:19,2018-11-28 14:50:20,1.438s,PASSED
+maximizeWindow,Chrome 70.0.3538.110,,2018-11-28 14:50:20,2018-11-28 14:50:21,1.376s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 14:50:21,2018-11-28 14:50:23,1.055s,PASSED
+click,Chrome 70.0.3538.110,,2018-11-28 14:50:23,2018-11-28 14:50:23,0.772s,PASSED
+delay,Chrome 70.0.3538.110,,2018-11-28 14:50:23,2018-11-28 14:50:25,2.003s,PASSED
+demo.ReadExcel.setExcelFile,Chrome 70.0.3538.110,,2018-11-28 14:50:25,2018-11-28 14:50:27,1.374s,PASSED
+Statement - total_excel_row = CustomKeywords.demo.ReadExcel.getRowCount(sheetname),Chrome 70.0.3538.110,,2018-11-28 14:50:27,2018-11-28 14:50:27,0.087s,PASSED
+Statement - println(total_excel_row),Chrome 70.0.3538.110,,2018-11-28 14:50:27,2018-11-28 14:50:27,0.084s,PASSED
+"Statement - For ([row = 1, row < total_excel_row, (row++)])",Chrome 70.0.3538.110,,2018-11-28 14:50:27,2018-11-28 14:50:30,3.284s,PASSED
