@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webservices,,,2018-11-29 10:19:05,2018-11-29 10:19:21,15.624s,FAILED
+,,,,,,
+Test Cases/Demo/REST_Test_postWarehouseProInvByItemID,,,2018-11-29 10:19:06,2018-11-29 10:19:21,14.406s,FAILED
+Start listener action : sampleBeforeTestCase,,,2018-11-29 10:19:06,2018-11-29 10:19:07,0.255s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Demo/Webservices/REST_postWarehouseProductInventoryByItemID)),,,2018-11-29 10:19:07,2018-11-29 10:19:12,4.460s,PASSED
+Statement - slurper = new groovy.json.JsonSlurper(),,,2018-11-29 10:19:12,2018-11-29 10:19:12,0.019s,PASSED
+Statement - parsedJson = slurper.parseText(response.getResponseBodyContent()),,,2018-11-29 10:19:12,2018-11-29 10:19:12,0.173s,PASSED
+Statement - println(parsedJson),,,2018-11-29 10:19:12,2018-11-29 10:19:12,0.019s,PASSED
+verifyElementPropertyValue,,,2018-11-29 10:19:12,2018-11-29 10:19:16,4.364s,PASSED
+verifyElementPropertyValue,,,2018-11-29 10:19:17,2018-11-29 10:19:18,1.530s,PASSED
+verifyElementPropertyValue,,,2018-11-29 10:19:18,2018-11-29 10:19:18,0.429s,PASSED
+verifyElementPropertyValue,,,2018-11-29 10:19:18,2018-11-29 10:19:19,0.364s,PASSED
+verifyElementPropertyValue,,,2018-11-29 10:19:19,2018-11-29 10:19:20,0.677s,FAILED
+verifyElementPropertyValue,,,2018-11-29 10:19:20,2018-11-29 10:19:20,0.427s,PASSED
+verifyEqual,,Verify [itemKeyTypeCode] value return from WS match with expected value test,2018-11-29 10:19:20,2018-11-29 10:19:20,0.166s,PASSED
+verifyEqual,,Verify [whseLocTypeCcde] value return from WS match with expected value test,2018-11-29 10:19:20,2018-11-29 10:19:20,0.128s,PASSED
+verifyEqual,,Verify [whseLocNbr] value return from WS match with expected value test,2018-11-29 10:19:20,2018-11-29 10:19:20,0.063s,PASSED
+verifyEqual,,Verify [onHandQty] value return from WS match with expected value test,2018-11-29 10:19:20,2018-11-29 10:19:20,0.164s,PASSED
+verifyEqual,,Verify [billQty] value return from WS match with expected value test,2018-11-29 10:19:20,2018-11-29 10:19:21,0.057s,FAILED

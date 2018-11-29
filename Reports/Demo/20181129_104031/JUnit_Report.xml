@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo" time="59" tests="0" failures="1" errors="0">
+   <testsuite name="Demo" tests="0" failures="1" errors="0" time="59" timestamp="2018-11-29 10:40:36" hostname="longnguyen - LONGNGUYEN.vodc.lan" id="Test Suites/Demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181129_104031"/>
+         <property name="logFiles" value="E:\\WORK\\Katalon_CURA Testproject\\Reports\\Demo\\20181129_104031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="longnguyen - LONGNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="dbServerInfo" value="Microsoft SQL Server 12.00.4100"/>
+         <property name="hostAddress" value="10.10.10.62"/>
+         <property name="sessionId" value="9e2ade9452a8f47eb630210348cff1d5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/Excel_with_Database" classname="Test Cases/Demo/Excel_with_Database" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1542937453733.run(Script1542937453733.groovy:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543462832104.run(TempTestSuite1543462832104.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-29 10:40:37 - [TEST_CASE][FAILED] - Test Cases/Demo/Excel_with_Database: Test Cases/Demo/Excel_with_Database FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1542937453733.run(Script1542937453733.groovy:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543462832104.run(TempTestSuite1543462832104.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-29 10:40:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-29 10:40:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-29 10:40:37 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-11-29 10:40:37 - [TEST_STEP][PASSED] - Statement - downloadPath = "C:\Users\longnguyen\Downloads\Selenium Easy - Download Table Data to CSV, Excel, PDF and Print.xlsx": null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - sheetname = "Sheet1": null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - total_excel_row = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - excel_column = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - Name = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - Position = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - Office = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - Age = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - StartDate = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - Statement - Salary = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-29 10:40:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-29 10:40:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-29 10:40:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'file:/E:/WORK/PassPulFramework/PassPul/PassPul/SeleniumEasy/www.seleniumeasy.com/test/table-data-download-demo.html' successfully
+
+2018-11-29 10:40:45 - [MESSAGE][PASSED] - Navigate to 'file:/E:/WORK/PassPulFramework/PassPul/PassPul/SeleniumEasy/www.seleniumeasy.com/test/table-data-download-demo.html' successfully
+
+2018-11-29 10:40:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-29 10:40:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-29 10:40:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-29 10:40:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-29 10:40:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Demo/Upload_Download/a_Excel' is clicked on
+
+2018-11-29 10:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Demo/Upload_Download/a_Excel' is clicked on
+
+2018-11-29 10:40:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-29 10:40:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-29 10:40:50 - [TEST_STEP][PASSED] - demo.ReadExcel.setExcelFile: demo.ReadExcel.setExcelFile is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.setExcelFile is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - total_excel_row = CustomKeywords.demo.ReadExcel.getRowCount(sheetname): demo.ReadExcel.getRowCount is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getRowCount is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - println(total_excel_row): null
+
+2018-11-29 10:40:51 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row < total_excel_row, (row++)]): Actual text '$675,000' and expected text '$675,000' are matched 
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:51 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Airi Satou' and expected text 'Airi Satou' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text 'Airi Satou' and expected text 'Airi Satou' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Accountant' and expected text 'Accountant' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text 'Accountant' and expected text 'Accountant' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text '33' and expected text '33' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text '33' and expected text '33' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2008/11/28' and expected text '2008/11/28' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text '2008/11/28' and expected text '2008/11/28' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$162,700' and expected text '$162,700' are matched 
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - Actual text '$162,700' and expected text '$162,700' are matched 
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:53 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Angelica Ramos' and expected text 'Angelica Ramos' are matched 
+
+2018-11-29 10:40:54 - [MESSAGE][PASSED] - Actual text 'Angelica Ramos' and expected text 'Angelica Ramos' are matched 
+
+2018-11-29 10:40:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chief Executive Officer (CEO)' and expected text 'Chief Executive Officer (CEO)' are matched 
+
+2018-11-29 10:40:54 - [MESSAGE][PASSED] - Actual text 'Chief Executive Officer (CEO)' and expected text 'Chief Executive Officer (CEO)' are matched 
+
+2018-11-29 10:40:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:40:54 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:40:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text '47' and expected text '47' are matched 
+
+2018-11-29 10:40:54 - [MESSAGE][PASSED] - Actual text '47' and expected text '47' are matched 
+
+2018-11-29 10:40:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2009/10/09' and expected text '2009/10/09' are matched 
+
+2018-11-29 10:40:54 - [MESSAGE][PASSED] - Actual text '2009/10/09' and expected text '2009/10/09' are matched 
+
+2018-11-29 10:40:54 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$1,200,000' and expected text '$1,200,000' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text '$1,200,000' and expected text '$1,200,000' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Ashton Cox' and expected text 'Ashton Cox' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text 'Ashton Cox' and expected text 'Ashton Cox' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Junior Technical Author' and expected text 'Junior Technical Author' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text 'Junior Technical Author' and expected text 'Junior Technical Author' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text '66' and expected text '66' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text '66' and expected text '66' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2009/01/12' and expected text '2009/01/12' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text '2009/01/12' and expected text '2009/01/12' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$86,000' and expected text '$86,000' are matched 
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - Actual text '$86,000' and expected text '$86,000' are matched 
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Bradley Greer' and expected text 'Bradley Greer' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text 'Bradley Greer' and expected text 'Bradley Greer' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text '41' and expected text '41' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text '41' and expected text '41' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/10/13' and expected text '2012/10/13' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text '2012/10/13' and expected text '2012/10/13' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$132,000' and expected text '$132,000' are matched 
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - Actual text '$132,000' and expected text '$132,000' are matched 
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Brenden Wagner' and expected text 'Brenden Wagner' are matched 
+
+2018-11-29 10:40:57 - [MESSAGE][PASSED] - Actual text 'Brenden Wagner' and expected text 'Brenden Wagner' are matched 
+
+2018-11-29 10:40:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:40:57 - [MESSAGE][PASSED] - Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:40:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:40:57 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:40:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text '28' and expected text '28' are matched 
+
+2018-11-29 10:40:57 - [MESSAGE][PASSED] - Actual text '28' and expected text '28' are matched 
+
+2018-11-29 10:40:57 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/06/07' and expected text '2011/06/07' are matched 
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - Actual text '2011/06/07' and expected text '2011/06/07' are matched 
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$206,850' and expected text '$206,850' are matched 
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - Actual text '$206,850' and expected text '$206,850' are matched 
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Brielle Williamson' and expected text 'Brielle Williamson' are matched 
+
+2018-11-29 10:40:58 - [MESSAGE][PASSED] - Actual text 'Brielle Williamson' and expected text 'Brielle Williamson' are matched 
+
+2018-11-29 10:40:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+
+2018-11-29 10:40:59 - [MESSAGE][FAILED] - Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/12/02' and expected text '2012/12/02' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text '2012/12/02' and expected text '2012/12/02' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '$372,000' and expected text '$500,000' (Root cause: Actual text '$372,000' and expected text '$500,000' are not matched)
+
+2018-11-29 10:40:59 - [MESSAGE][FAILED] - Unable to verify match between actual text '$372,000' and expected text '$500,000' (Root cause: Actual text '$372,000' and expected text '$500,000' are not matched)
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Caesar Vance' and expected text 'Caesar Vance' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text 'Caesar Vance' and expected text 'Caesar Vance' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Pre-Sales Support' and expected text 'Pre-Sales Support' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text 'Pre-Sales Support' and expected text 'Pre-Sales Support' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text '21' and expected text '21' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text '21' and expected text '21' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/12/12' and expected text '2011/12/12' are matched 
+
+2018-11-29 10:40:59 - [MESSAGE][PASSED] - Actual text '2011/12/12' and expected text '2011/12/12' are matched 
+
+2018-11-29 10:40:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$106,450' and expected text '$106,450' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text '$106,450' and expected text '$106,450' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Cedric Kelly' and expected text 'Cedric Kelly' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text 'Cedric Kelly' and expected text 'Cedric Kelly' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Senior Javascript Developer' and expected text 'Senior Javascript Developer' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text 'Senior Javascript Developer' and expected text 'Senior Javascript Developer' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text '22' and expected text '22' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text '22' and expected text '22' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/03/29' and expected text '2012/03/29' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text '2012/03/29' and expected text '2012/03/29' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$433,060' and expected text '$433,060' are matched 
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - Actual text '$433,060' and expected text '$433,060' are matched 
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Charde Marshall' and expected text 'Charde Marshall' are matched 
+
+2018-11-29 10:41:01 - [MESSAGE][PASSED] - Actual text 'Charde Marshall' and expected text 'Charde Marshall' are matched 
+
+2018-11-29 10:41:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:01 - [MESSAGE][PASSED] - Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text '36' and expected text '36' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text '36' and expected text '36' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2008/10/16' and expected text '2008/10/16' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text '2008/10/16' and expected text '2008/10/16' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$470,600' and expected text '$470,600' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text '$470,600' and expected text '$470,600' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Colleen Hurst' and expected text 'Colleen Hurst' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text 'Colleen Hurst' and expected text 'Colleen Hurst' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Javascript Developer' and expected text 'Javascript Developer' are matched 
+
+2018-11-29 10:41:02 - [MESSAGE][PASSED] - Actual text 'Javascript Developer' and expected text 'Javascript Developer' are matched 
+
+2018-11-29 10:41:02 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text '39' and expected text '39' are matched 
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - Actual text '39' and expected text '39' are matched 
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2009/09/15' and expected text '2009/09/15' are matched 
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - Actual text '2009/09/15' and expected text '2009/09/15' are matched 
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$205,500' and expected text '$205,500' are matched 
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - Actual text '$205,500' and expected text '$205,500' are matched 
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Dai Rios' and expected text 'Dai Rios' are matched 
+
+2018-11-29 10:41:03 - [MESSAGE][PASSED] - Actual text 'Dai Rios' and expected text 'Dai Rios' are matched 
+
+2018-11-29 10:41:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Personnel Lead' and expected text 'Personnel Lead' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text 'Personnel Lead' and expected text 'Personnel Lead' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text '35' and expected text '35' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text '35' and expected text '35' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/09/26' and expected text '2012/09/26' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text '2012/09/26' and expected text '2012/09/26' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$217,500' and expected text '$217,500' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text '$217,500' and expected text '$217,500' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Doris Wilder' and expected text 'Doris Wilder' are matched 
+
+2018-11-29 10:41:04 - [MESSAGE][PASSED] - Actual text 'Doris Wilder' and expected text 'Doris Wilder' are matched 
+
+2018-11-29 10:41:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Sales Assistant' and expected text 'Sales Assistant' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text 'Sales Assistant' and expected text 'Sales Assistant' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Sidney' and expected text 'Sidney' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text 'Sidney' and expected text 'Sidney' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text '23' and expected text '23' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text '23' and expected text '23' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/09/20' and expected text '2010/09/20' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text '2010/09/20' and expected text '2010/09/20' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$85,600' and expected text '$85,600' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text '$85,600' and expected text '$85,600' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Fiona Green' and expected text 'Fiona Green' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text 'Fiona Green' and expected text 'Fiona Green' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chief Operating Officer (COO)' and expected text 'Chief Operating Officer (COO)' are matched 
+
+2018-11-29 10:41:05 - [MESSAGE][PASSED] - Actual text 'Chief Operating Officer (COO)' and expected text 'Chief Operating Officer (COO)' are matched 
+
+2018-11-29 10:41:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:06 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '48' and expected text '50' (Root cause: Actual text '48' and expected text '50' are not matched)
+
+2018-11-29 10:41:06 - [MESSAGE][FAILED] - Unable to verify match between actual text '48' and expected text '50' (Root cause: Actual text '48' and expected text '50' are not matched)
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/03/11' and expected text '2010/03/11' are matched 
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - Actual text '2010/03/11' and expected text '2010/03/11' are matched 
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$850,000' and expected text '$850,000' are matched 
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - Actual text '$850,000' and expected text '$850,000' are matched 
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Garrett Winters' and expected text 'Garrett Winters' are matched 
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - Actual text 'Garrett Winters' and expected text 'Garrett Winters' are matched 
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Accountant' and expected text 'Accountant' are matched 
+
+2018-11-29 10:41:06 - [MESSAGE][PASSED] - Actual text 'Accountant' and expected text 'Accountant' are matched 
+
+2018-11-29 10:41:06 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'Tokyo' and expected text 'da nang' (Root cause: Actual text 'Tokyo' and expected text 'da nang' are not matched)
+
+2018-11-29 10:41:06 - [MESSAGE][FAILED] - Unable to verify match between actual text 'Tokyo' and expected text 'da nang' (Root cause: Actual text 'Tokyo' and expected text 'da nang' are not matched)
+
+2018-11-29 10:41:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text '63' and expected text '63' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text '63' and expected text '63' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/07/25' and expected text '2011/07/25' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text '2011/07/25' and expected text '2011/07/25' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$170,750' and expected text '$170,750' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text '$170,750' and expected text '$170,750' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gavin Joyce' and expected text 'Gavin Joyce' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text 'Gavin Joyce' and expected text 'Gavin Joyce' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Developer' and expected text 'Developer' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text 'Developer' and expected text 'Developer' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:07 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text '42' and expected text '42' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text '42' and expected text '42' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/12/22' and expected text '2010/12/22' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text '2010/12/22' and expected text '2010/12/22' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$92,575' and expected text '$92,575' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text '$92,575' and expected text '$92,575' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Gloria Little' and expected text 'Gloria Little' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text 'Gloria Little' and expected text 'Gloria Little' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Systems Administrator' and expected text 'Systems Administrator' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text 'Systems Administrator' and expected text 'Systems Administrator' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:08 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:08 - [TEST_STEP][PASSED] - verifyMatch: Actual text '59' and expected text '59' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text '59' and expected text '59' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2009/04/10' and expected text '2009/04/10' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text '2009/04/10' and expected text '2009/04/10' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$237,500' and expected text '$237,500' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text '$237,500' and expected text '$237,500' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Haley Kennedy' and expected text 'Haley Kennedy' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text 'Haley Kennedy' and expected text 'Haley Kennedy' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Senior Marketing Designer' and expected text 'Senior Marketing Designer' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text 'Senior Marketing Designer' and expected text 'Senior Marketing Designer' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:09 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text '43' and expected text '43' are matched 
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - Actual text '43' and expected text '43' are matched 
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/12/18' and expected text '2012/12/18' are matched 
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - Actual text '2012/12/18' and expected text '2012/12/18' are matched 
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$313,500' and expected text '$313,500' are matched 
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - Actual text '$313,500' and expected text '$313,500' are matched 
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Herrod Chandler' and expected text 'Herrod Chandler' are matched 
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - Actual text 'Herrod Chandler' and expected text 'Herrod Chandler' are matched 
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Sales Assistant' and expected text 'Sales Assistant' are matched 
+
+2018-11-29 10:41:10 - [MESSAGE][PASSED] - Actual text 'Sales Assistant' and expected text 'Sales Assistant' are matched 
+
+2018-11-29 10:41:10 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:11 - [MESSAGE][PASSED] - Actual text 'San Francisco' and expected text 'San Francisco' are matched 
+
+2018-11-29 10:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text '59' and expected text '59' are matched 
+
+2018-11-29 10:41:11 - [MESSAGE][PASSED] - Actual text '59' and expected text '59' are matched 
+
+2018-11-29 10:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/08/06' and expected text '2012/08/06' are matched 
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - Actual text '2012/08/06' and expected text '2012/08/06' are matched 
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$137,500' and expected text '$137,500' are matched 
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - Actual text '$137,500' and expected text '$137,500' are matched 
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Jena Gaines' and expected text 'Jena Gaines' are matched 
+
+2018-11-29 10:41:12 - [MESSAGE][PASSED] - Actual text 'Jena Gaines' and expected text 'Jena Gaines' are matched 
+
+2018-11-29 10:41:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Office Manager' and expected text 'Office Manager' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text 'Office Manager' and expected text 'Office Manager' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text '30' and expected text '30' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text '30' and expected text '30' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2008/12/19' and expected text '2008/12/19' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text '2008/12/19' and expected text '2008/12/19' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$90,560' and expected text '$90,560' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text '$90,560' and expected text '$90,560' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Jenette Caldwell' and expected text 'Jenette Caldwell' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text 'Jenette Caldwell' and expected text 'Jenette Caldwell' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Development Lead' and expected text 'Development Lead' are matched 
+
+2018-11-29 10:41:13 - [MESSAGE][PASSED] - Actual text 'Development Lead' and expected text 'Development Lead' are matched 
+
+2018-11-29 10:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text '30' and expected text '30' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text '30' and expected text '30' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/09/03' and expected text '2011/09/03' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text '2011/09/03' and expected text '2011/09/03' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$345,000' and expected text '$345,000' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text '$345,000' and expected text '$345,000' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Jennifer Chang' and expected text 'Jennifer Chang' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text 'Jennifer Chang' and expected text 'Jennifer Chang' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Singapore' and expected text 'Singapore' are matched 
+
+2018-11-29 10:41:14 - [MESSAGE][PASSED] - Actual text 'Singapore' and expected text 'Singapore' are matched 
+
+2018-11-29 10:41:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text '28' and expected text '28' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text '28' and expected text '28' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/11/14' and expected text '2010/11/14' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text '2010/11/14' and expected text '2010/11/14' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$357,650' and expected text '$357,650' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text '$357,650' and expected text '$357,650' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Michael Silva' and expected text 'Michael Silva' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text 'Michael Silva' and expected text 'Michael Silva' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Marketing Designer' and expected text 'Marketing Designer' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text 'Marketing Designer' and expected text 'Marketing Designer' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text '66' and expected text '66' are matched 
+
+2018-11-29 10:41:15 - [MESSAGE][PASSED] - Actual text '66' and expected text '66' are matched 
+
+2018-11-29 10:41:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2012/11/27' and expected text '2012/11/27' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text '2012/11/27' and expected text '2012/11/27' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$198,500' and expected text '$198,500' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text '$198,500' and expected text '$198,500' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Michelle House' and expected text 'Michelle House' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'Michelle House' and expected text 'Michelle House' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Sidney' and expected text 'Sidney' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'Sidney' and expected text 'Sidney' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text '37' and expected text '37' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text '37' and expected text '37' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/06/02' and expected text '2011/06/02' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text '2011/06/02' and expected text '2011/06/02' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$95,400' and expected text '$95,400' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text '$95,400' and expected text '$95,400' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Paul Byrd' and expected text 'Paul Byrd' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'Paul Byrd' and expected text 'Paul Byrd' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chief Financial Officer (CFO)' and expected text 'Chief Financial Officer (CFO)' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'Chief Financial Officer (CFO)' and expected text 'Chief Financial Officer (CFO)' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:16 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text '64' and expected text '64' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '64' and expected text '64' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/06/09' and expected text '2010/06/09' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '2010/06/09' and expected text '2010/06/09' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$725,000' and expected text '$725,000' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '$725,000' and expected text '$725,000' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Quinn Flynn' and expected text 'Quinn Flynn' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text 'Quinn Flynn' and expected text 'Quinn Flynn' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Support Lead' and expected text 'Support Lead' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text 'Support Lead' and expected text 'Support Lead' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text '22' and expected text '22' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '22' and expected text '22' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2013/03/03' and expected text '2013/03/03' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '2013/03/03' and expected text '2013/03/03' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$342,000' and expected text '$342,000' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text '$342,000' and expected text '$342,000' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Rhona Davidson' and expected text 'Rhona Davidson' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text 'Rhona Davidson' and expected text 'Rhona Davidson' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:41:17 - [MESSAGE][PASSED] - Actual text 'Integration Specialist' and expected text 'Integration Specialist' are matched 
+
+2018-11-29 10:41:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text '55' and expected text '55' are matched 
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - Actual text '55' and expected text '55' are matched 
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/10/14' and expected text '2010/10/14' are matched 
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - Actual text '2010/10/14' and expected text '2010/10/14' are matched 
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$327,900' and expected text '$327,900' are matched 
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - Actual text '$327,900' and expected text '$327,900' are matched 
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Shou Itou' and expected text 'Shou Itou' are matched 
+
+2018-11-29 10:41:19 - [MESSAGE][PASSED] - Actual text 'Shou Itou' and expected text 'Shou Itou' are matched 
+
+2018-11-29 10:41:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Regional Marketing' and expected text 'Regional Marketing' are matched 
+
+2018-11-29 10:41:19 - [MESSAGE][PASSED] - Actual text 'Regional Marketing' and expected text 'Regional Marketing' are matched 
+
+2018-11-29 10:41:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:41:19 - [MESSAGE][PASSED] - Actual text 'Tokyo' and expected text 'Tokyo' are matched 
+
+2018-11-29 10:41:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text '20' and expected text '20' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '20' and expected text '20' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/08/14' and expected text '2011/08/14' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '2011/08/14' and expected text '2011/08/14' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$163,000' and expected text '$163,000' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '$163,000' and expected text '$163,000' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Sonya Frost' and expected text 'Sonya Frost' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text 'Sonya Frost' and expected text 'Sonya Frost' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text 'Software Engineer' and expected text 'Software Engineer' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text '23' and expected text '23' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '23' and expected text '23' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2008/12/13' and expected text '2008/12/13' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '2008/12/13' and expected text '2008/12/13' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$103,600' and expected text '$103,600' are matched 
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - Actual text '$103,600' and expected text '$103,600' are matched 
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tatyana Fitzpatrick' and expected text 'Tatyana Fitzpatrick' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'Tatyana Fitzpatrick' and expected text 'Tatyana Fitzpatrick' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'Regional Director' and expected text 'Regional Director' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'London' and expected text 'London' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '19' and expected text '19' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text '19' and expected text '19' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2010/03/17' and expected text '2010/03/17' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text '2010/03/17' and expected text '2010/03/17' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$385,750' and expected text '$385,750' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text '$385,750' and expected text '$385,750' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Tiger Nixon' and expected text 'Tiger Nixon' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'Tiger Nixon' and expected text 'Tiger Nixon' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'System Architect' and expected text 'System Architect' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'System Architect' and expected text 'System Architect' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text 'Edinburgh' and expected text 'Edinburgh' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '61' and expected text '61' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text '61' and expected text '61' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2011/04/25' and expected text '2011/04/25' are matched 
+
+2018-11-29 10:41:21 - [MESSAGE][PASSED] - Actual text '2011/04/25' and expected text '2011/04/25' are matched 
+
+2018-11-29 10:41:21 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$320,800' and expected text '$320,800' are matched 
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - Actual text '$320,800' and expected text '$320,800' are matched 
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - excel_column = CustomKeywords.demo.ReadExcel.getColumnCount(sheetname, row): demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getColumnCount is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - println(excel_column): null
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - column = 0: null
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - Name = CustomKeywords.demo.ReadExcel.getCellData(row, 0): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - Position = CustomKeywords.demo.ReadExcel.getCellData(row, 1): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - Office = CustomKeywords.demo.ReadExcel.getCellData(row, 2): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - Age = CustomKeywords.demo.ReadExcel.getCellData(row, 3): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - StartDate = CustomKeywords.demo.ReadExcel.getCellData(row, 4): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - Salary = CustomKeywords.demo.ReadExcel.getCellData(row, 5): demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - demo.ReadExcel.getCellData is PASSED
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - Statement - println(Name + " " + Position + " " + Office + " " + Age + " " + StartDate + " " + Salary): null
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Yuri Berry' and expected text 'Yuri Berry' are matched 
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - Actual text 'Yuri Berry' and expected text 'Yuri Berry' are matched 
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Chief Marketing Officer (CMO)' and expected text 'Chief Marketing Officer (CMO)' are matched 
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - Actual text 'Chief Marketing Officer (CMO)' and expected text 'Chief Marketing Officer (CMO)' are matched 
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:22 - [MESSAGE][PASSED] - Actual text 'New York' and expected text 'New York' are matched 
+
+2018-11-29 10:41:22 - [TEST_STEP][PASSED] - verifyMatch: Actual text '40' and expected text '40' are matched 
+
+2018-11-29 10:41:23 - [MESSAGE][PASSED] - Actual text '40' and expected text '40' are matched 
+
+2018-11-29 10:41:23 - [TEST_STEP][PASSED] - verifyMatch: Actual text '2009/06/25' and expected text '2009/06/25' are matched 
+
+2018-11-29 10:41:23 - [MESSAGE][PASSED] - Actual text '2009/06/25' and expected text '2009/06/25' are matched 
+
+2018-11-29 10:41:23 - [TEST_STEP][PASSED] - verifyMatch: Actual text '$675,000' and expected text '$675,000' are matched 
+
+2018-11-29 10:41:23 - [MESSAGE][PASSED] - Actual text '$675,000' and expected text '$675,000' are matched]]></system-out>
+         <system-err><![CDATA[2018-11-29 10:40:37 - [TEST_CASE][FAILED] - Test Cases/Demo/Excel_with_Database: Test Cases/Demo/Excel_with_Database FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1542937453733.run(Script1542937453733.groovy:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543462832104.run(TempTestSuite1543462832104.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-29 10:40:36 - [TEST_SUITE][FAILED] - Demo: Test Cases/Demo/Excel_with_Database FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1542937453733.run(Script1542937453733.groovy:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543462832104.run(TempTestSuite1543462832104.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-29 10:40:36 - [TEST_SUITE][FAILED] - Demo: Test Cases/Demo/Excel_with_Database FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text '61' and expected text '62' (Root cause: Actual text '61' and expected text '62' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:61)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:46)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at Script1542937453733.run(Script1542937453733.groovy:70)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1543462832104.run(TempTestSuite1543462832104.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

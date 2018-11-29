@@ -4,7 +4,7 @@
    <name>Webservices</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T13:26:04</lastRun>
+   <lastRun>2018-11-29T10:24:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,23 +16,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Demo/REST_Test_postWarehouseProInvByItemID</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60253631-0b72-4bb2-8759-199a02375c19</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo/SOAP_Test_getBankinfo</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c50a98cb-1045-4c92-a3a3-b728fba1150d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5efc6314-b93c-4f11-8031-5c2638e68bd6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Demo/REST_Test_getUser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

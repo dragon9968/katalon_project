@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo,Chrome 70.0.3538.110,,2018-11-29 10:34:49,2018-11-29 10:36:11,1m - 21.773s,FAILED
+,,,,,,
+Test Cases/Demo/DataTable_Pagination,Chrome 70.0.3538.110,,2018-11-29 10:34:50,2018-11-29 10:36:11,1m - 20.953s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 70.0.3538.110,,2018-11-29 10:34:50,2018-11-29 10:34:50,0.084s,PASSED
+openBrowser,Chrome 70.0.3538.110,Open Browser and Navigate to DataTable Page,2018-11-29 10:34:50,2018-11-29 10:34:57,6.392s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-29 10:34:57,2018-11-29 10:34:58,1.695s,PASSED
+maximizeWindow,Chrome 70.0.3538.110,,2018-11-29 10:34:58,2018-11-29 10:35:00,1.869s,PASSED
+scrollToPosition,Chrome 70.0.3538.110,,2018-11-29 10:35:00,2018-11-29 10:35:00,0.117s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.110,,2018-11-29 10:35:00,2018-11-29 10:35:00,0.017s,PASSED
+"Statement - pagination = driver.findElements(org.openqa.selenium.By.xpath("".//*[@id=""example_paginate""]/span/a""))",Chrome 70.0.3538.110,Get Pages in DataTable,2018-11-29 10:35:00,2018-11-29 10:35:01,0.159s,PASSED
+Statement - size = pagination.size(),Chrome 70.0.3538.110,,2018-11-29 10:35:01,2018-11-29 10:35:01,0.001s,PASSED
+"Statement - println(""Total Pages of this site is :"" + size)",Chrome 70.0.3538.110,,2018-11-29 10:35:01,2018-11-29 10:35:01,0.014s,PASSED
+Statement - row_data_table = 1,Chrome 70.0.3538.110,Go to each page to get data in DataTable,2018-11-29 10:35:01,2018-11-29 10:35:01,0.006s,PASSED
+"Statement - For ([i = 1, i <= size, (i++)])",Chrome 70.0.3538.110,,2018-11-29 10:35:01,2018-11-29 10:36:11,1m - 9.943s,FAILED

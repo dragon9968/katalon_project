@@ -47,8 +47,8 @@ try {
         'Fetch through each row and column to get data'
         for (int column = 0; column < column_count; column++) {
             String cell_text = column_table.get(column).getText()
-
             println((((('Cell value of row : ' + row) + ' and cell ') + column) + ' is ') + cell_text)
+			
 			'Mapping (Compare) data on Table with Database'
             WebUI.verifyMatch(cell_text, findTestData('Demo/Data_Table').getValue(column + 1, row + 1), false, FailureHandling.CONTINUE_ON_FAILURE)
         }
