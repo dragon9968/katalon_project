@@ -15,19 +15,30 @@ import internal.GlobalVariable as GlobalVariable
 
 def response = WS.sendRequest(findTestObject('Demo/Webservices/SOAP_getBankinfo'))
 
-'Verify bic detail value return from WS match with expected value test'
+def xml = new XmlSlurper().parseText(response.getResponseBodyContent())
+println(xml)
+println(xml.details.bic)
+
 WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 9), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
-        15, 9))
-
-'Verify bic bezeichnung detail value return from WS match with expected value test'
+	15, 9))
 WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 10), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
-        15, 10))
-
-'Verify bic ort detail value return from WS match with expected value test'
+	15, 10))
 WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 11), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
-        15, 11))
-
-'Verify bic plz detail value return from WS match with expected value test'
+	15, 11))
 WS.verifyElementText(response, findTestData('Demo/Sample_TC_Text_xlsx').getValue(14, 12), findTestData('Demo/Sample_TC_Text_xlsx').getValue(
-        15, 12))
+	15, 12))
+
+'Verify [bic] detail value return from WS match with expected value test'
+WebUI.verifyEqual(xml.details.bic,findTestData('Demo/Sample_TC_Text_xlsx').getValue(15, 9),FailureHandling.CONTINUE_ON_FAILURE)
+
+'Verify [bezeichnung] detail value return from WS match with expected value test'
+WebUI.verifyEqual(xml.details.bezeichnung,findTestData('Demo/Sample_TC_Text_xlsx').getValue(15, 10),FailureHandling.CONTINUE_ON_FAILURE)
+
+'Verify [ort] detail value return from WS match with expected value test'
+WebUI.verifyEqual(xml.details.ort,findTestData('Demo/Sample_TC_Text_xlsx').getValue(15, 11),FailureHandling.CONTINUE_ON_FAILURE)
+
+'Verify [plz] detail value return from WS match with expected value test'
+WebUI.verifyEqual(xml.details.plz,findTestData('Demo/Sample_TC_Text_xlsx').getValue(15, 12),FailureHandling.CONTINUE_ON_FAILURE)
+
+
 
